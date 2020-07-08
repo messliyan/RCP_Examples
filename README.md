@@ -1,0 +1,2 @@
+# RCP_Examples
+许多java的eclipse RCP项目的例子，实现了自定义的扩展点来展示，并包含一个其他项目的querybuliud项目
