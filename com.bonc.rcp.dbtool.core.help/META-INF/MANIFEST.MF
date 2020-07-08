@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Help
+Bundle-SymbolicName: com.bonc.rcp.dbtool.core.help;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: BONC
+Automatic-Module-Name: com.bonc.xcloud.client.help
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

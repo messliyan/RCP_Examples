@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension-point id="jdbcDriver" name="JDBC Driver" schema="schema/jdbcDriver.exsd"/>
+   <extension-point id="queryBuilder" name="queryBuilder" schema="schema/queryBuilder.exsd"/>
+   <extension-point id="schemaDesigner" name="schemaDesigner" schema="schema/schemadesigner.exsd"/>
+   <extension-point id="schemaViewer" name="schemaViewer" schema="schema/schemaViewer.exsd"/>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="%DbExplorer.Category.Name"
+            id="com.nayaware.dbtools">
+      </category>
+      <view
+            name="%DbExplorer.View.Name"
+            icon="icons/dbExplorer.png"
+            category="com.nayaware.dbtools"
+            class="com.nayaware.dbtools.views.DbExplorerView"
+            id="com.nayaware.dbtools.views.DbExplorerView">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="contexts.xml">
+      </contexts>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.nayaware.dbtools.editors.sql.SqlEditor"
+            contributorClass="com.nayaware.dbtools.editors.sql.SqlEditorActionBarContributor"
+            default="false"
+            extensions="sql"
+            icon="icons/sqlEditor.png"
+            id="com.nayaware.dbtools.sqlEditor"
+            name="sqlEditor">
+      </editor>
+      <editor
+            class="com.nayaware.dbtools.editors.TableDataEditor"
+            default="false"
+            icon="icons/tableEditor.png"
+            id="com.nayaware.dbtools.tableDataEditor"
+            name="Table Editor">
+      </editor>
+   </extension>
+   <extension
+         id="com.nayaware.dbtools.editors.template"
+         name="SQL Editor Templates"
+         point="org.eclipse.ui.editors.templates">
+      <contextType
+            class="com.nayaware.dbtools.editors.sql.templates.SqlTemplateContextType"
+            id="com.nayaware.dbtools.editor.sql.template"
+            name="SQL ">
+      </contextType>
+      <include
+            file="templates/sqlTemplates.xml"
+            translations="templates/sqlTemplates.properties">
+      </include>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="com.nayaware.dbtools.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="com.nayaware.dbtools.preferences.SqlEditorPreferencePage"
+            id="com.nayaware.dbtools.preferences.SqlEditorPreferencePage"
+            name="SQL Editor">
+      </page>
+      <page
+            class="com.nayaware.dbtools.preferences.SqlTemplatePreferencePage"
+            id="com.nayaware.dbtools.preferences.SqlTemplatePreferencePage"
+            name="SQL Templates">
+      </page>
+   </extension>
+</plugin>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+    <extension point="org.eclipse.ui.editors">
+      <editor id="com.jtauber.river.editor"
+            name="River Editor"
+            default="true"
+            icon="icons/river.gif"
+            extensions="river"
+            contributorClass="com.jtauber.river.actions.DiagramActionBarContributor"
+            class="com.jtauber.river.ui.DiagramEditor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.swt.examples.launcher.launchItems">
+      <item
+            category="com.bonc.rcp.example.category.gef"
+            description="gef写的一个例子 com.bonc.gef.example.river插件提供"
+            icon="icons/river.gif"
+            id="com.bonc.gef.example.river.editor"
+            name="river">
+         <editor
+               editorId="com.jtauber.river.editor"
+               editorInputclass="com.jtauber.river.ui.MyEditorInput"
+               pluginId="com.bonc.rcp.example">
+         </editor>
+      </item>
+   </extension>>
+</plugin>

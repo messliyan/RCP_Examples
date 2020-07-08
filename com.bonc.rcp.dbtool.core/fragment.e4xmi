@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_D70zoICdEeqjAZeR9buc-Q">
+  <imports xsi:type="commands:Command" xmi:id="_TR7jQIFTEeqpqK3NZbab8w" elementId="com.bonc.rcp.dbtool.core.command.exit"/>
+  <imports xsi:type="commands:Command" xmi:id="_2Hi3QIFTEeqpqK3NZbab8w" elementId="com.bonc.rcp.dbtool.core.command.save"/>
+  <imports xsi:type="commands:Command" xmi:id="_2fbLwIFTEeqpqK3NZbab8w" elementId="com.bonc.rcp.dbtool.core.command.saveall"/>
+  <imports xsi:type="commands:Command" xmi:id="_2v0_QIFTEeqpqK3NZbab8w" elementId="com.bonc.rcp.dbtool.core.command.showview"/>
+  <imports xsi:type="commands:Command" xmi:id="_29HNUIFTEeqpqK3NZbab8w" elementId="com.bonc.rcp.dbtool.core.command.prefernces"/>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_D732-ICdEeqjAZeR9buc-Q" featurename="menuContributions" parentElementId="xpath:/">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_akmXUICdEeqjAZeR9buc-Q" elementId="com.bonc.rcp.dbtool.core.main.menu" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_m9qwUICeEeqjAZeR9buc-Q" elementId="org.eclipse.ui.file.menu" label="&#x6587;&#x4ef6;">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_m9qwUYCeEeqjAZeR9buc-Q" elementId="com.bonc.rcp.dbtool.core.handleditem.save" label="&#x4fdd;&#x5b58;" iconURI="platform:/plugin/com.bonc.rcp.dbtool.core/icons/save_edit.png" command="_2Hi3QIFTEeqpqK3NZbab8w"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_m9rXYICeEeqjAZeR9buc-Q" elementId="com.bonc.rcp.dbtool.core.handleditem.saveall" label="&#x4fdd;&#x5b58;&#x5168;&#x90e8;" iconURI="platform:/plugin/com.bonc.rcp.dbtool.core/icons/save_edit.png" command="_2fbLwIFTEeqpqK3NZbab8w"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_m9rXYYCeEeqjAZeR9buc-Q" elementId="com.bonc.rcp.dbtool.core.handleditem.exit" label="&#x9000;&#x51fa;" command="_TR7jQIFTEeqpqK3NZbab8w"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_m9uasICeEeqjAZeR9buc-Q" elementId="org.eclipse.ui.window.menu" label="&#x7a97;&#x53e3;">
+        <children xsi:type="menu:Menu" xmi:id="_m9uasYCeEeqjAZeR9buc-Q" elementId="showView" label="&#x663e;&#x793a;&#x89c6;&#x56fe;" iconURI="platform:/plugin/com.bonc.rcp.dbtool.core/icons/menu/show.png">
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_zJ6sgIEnEeqpqK3NZbab8w" elementId="com.bonc.rcp.dbtool.core.handleditem.showview.progress" label="&#x8fdb;&#x5ea6;" iconURI="platform:/plugin/org.eclipse.ui.ide//icons/full/eview16/pview.gif" command="_2v0_QIFTEeqpqK3NZbab8w">
+            <parameters xmi:id="_atFT8IFYEeqkKvQsZAdgKQ" elementId="com.bonc.xcloud.datamigration.parameter.showview.progress" name="com.bonc.rcp.dbtool.core.commandparameter.showview" value="ProgressView"/>
+          </children>
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_zo4gcIEnEeqpqK3NZbab8w" elementId="com.bonc.rcp.dbtool.core.handleditem.showview.console" label="&#x63a7;&#x5236;&#x53f0;" iconURI="platform:/plugin/org.eclipse.ui.console/$nl$/icons/full/cview16/console_view.png" command="_2v0_QIFTEeqpqK3NZbab8w">
+            <parameters xmi:id="_bGB_cIFYEeqkKvQsZAdgKQ" elementId="com.bonc.xcloud.datamigration.parameter.showview.consoleview" name="com.bonc.rcp.dbtool.core.commandparameter.showview" value="ConsoleView"/>
+          </children>
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_nZwz8IRjEeqkEccoKo2azQ" elementId="com.bonc.rcp.dbtool.core.handleditem.showview.navigatorview" toBeRendered="false" visible="false" label="&#x96c6;&#x7fa4;" iconURI="platform:/plugin/com.bonc.rcp.dbtool.core/icons/view/databases.png" command="_2v0_QIFTEeqpqK3NZbab8w">
+            <parameters xmi:id="_nZwz8YRjEeqkEccoKo2azQ" elementId="com.bonc.xcloud.datamigration.parameter.showview.navigatorview" name="com.bonc.rcp.dbtool.core.commandparameter.showview" value="navigatorview"/>
+          </children>
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_SL3EMIVSEeq1ffbk1Ghsyw" elementId="com.bonc.xcloud.dataMigration.handleditem.view.showview.progressview" visible="false" label="&#x8fdb;&#x5ea6;" iconURI="platform:/plugin/com.bonc.xcloud.dataMigration/icons/view/progress.png" enabled="false" command="_2v0_QIFTEeqpqK3NZbab8w"/>
+        </children>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_S6zWEJ82EeqwQOozwzsKpg" elementId="com.bonc.rcp.dbtool.core.menu.edit" label="&#x663e;&#x793a;&#x7f16;&#x8f91;&#x5668;"/>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

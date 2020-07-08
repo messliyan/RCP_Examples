@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_szuS0H4vEeqpqK3NZbab8w" elementId="com.bonc.rcp.dbtool.core.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_t-2pMH4vEeqpqK3NZbab8w" elementId="" label="My Main Window" width="800" height="600">
+    <tags>shellMaximized</tags>
+    <tags>lars</tags>
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_lpEYEH4xEeqpqK3NZbab8w" elementId="com.bonc.rcp.dbtool.core.perspectivestack" selectedElement="_LC-3oIU_Eeq1ffbk1Ghsyw">
+      <children xsi:type="advanced:Perspective" xmi:id="_oFPfkH4xEeqpqK3NZbab8w" elementId="com.bonc.rcp.dbtool.core.perspective" label="Core Perspective" iconURI="platform:/plugin/com.bonc.rcp.dbtool.core/icons/open_in_app.png" tooltip="DBTool">
+        <tags>Perspective</tags>
+        <tags>categoryTag:General</tags>
+        <children xsi:type="basic:PartSashContainer" xmi:id="_0UiuAH4xEeqpqK3NZbab8w" elementId="" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_B4ymgJ_6EeqwQOozwzsKpg" elementId="com.bonc.rcp.dbtool.core.partsashcontainer.1" containerData="3400" accessibilityPhrase="">
+            <children xsi:type="basic:PartStack" xmi:id="_GM1OkJ_6EeqwQOozwzsKpg" elementId="com.bonc.rcp.dbtool.core.partstack.0" containerData="600">
+              <children xsi:type="advanced:Placeholder" xmi:id="_NizWkJ_6EeqwQOozwzsKpg" elementId="com.bonc.rcp.dbtool.core.placeholder.0" containerData="" ref="_KmFNYH-mEeqpqK3NZbab8w"/>
+            </children>
+            <children xsi:type="basic:PartStack" xmi:id="_Gp92gJ_6EeqwQOozwzsKpg" elementId="com.bonc.rcp.dbtool.core.partstack.1" containerData="400">
+              <children xsi:type="advanced:Placeholder" xmi:id="_Nz9_EJ_6EeqwQOozwzsKpg" elementId="com.bonc.rcp.dbtool.core.placeholder.1" ref="_vWAn0J_5EeqwQOozwzsKpg"/>
+            </children>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_nogdAH7xEeqpqK3NZbab8w" elementId="com.bonc.rcp.dbtool.core.partsashcontainer.0" containerData="10000">
+            <children xsi:type="advanced:Placeholder" xmi:id="_G6NFoH-zEeqpqK3NZbab8w" elementId="org.eclipse.ui.editorss" containerData="" ref="_7K-9EH_AEeqpqK3NZbab8w"/>
+            <children xsi:type="basic:PartStack" xmi:id="_OBXVkH-zEeqpqK3NZbab8w" elementId="org.eclipse.ui.views.PropertySheetMStack" containerData="3400">
+              <tags>newtablook</tags>
+              <tags>org.eclipse.e4.secondaryDataStack</tags>
+            </children>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="advanced:Perspective" xmi:id="_LC-3oIU_Eeq1ffbk1Ghsyw" elementId="com.bonc.xcloud.datamigration.perspective" accessibilityPhrase="datamigration" label="datamigration" iconURI="platform:/plugin/com.bonc.rcp.dbtool.core/icons/view/databases.png" tooltip="datamigration"/>
+    </children>
+    <sharedElements xsi:type="advanced:Area" xmi:id="_7K-9EH_AEeqpqK3NZbab8w" elementId="org.eclipse.ui.editorss">
+      <children xsi:type="basic:PartStack" xmi:id="_9Y3J4H_AEeqpqK3NZbab8w" elementId="org.eclipse.e4.primaryDataStack">
+        <tags>newtablook</tags>
+        <tags>org.eclipse.e4.primaryDataStack</tags>
+        <tags>EditorStack</tags>
+      </children>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_KmFNYH-mEeqpqK3NZbab8w" elementId="com.nayaware.dbtools.views.DbExplorerView" accessibilityPhrase="" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="&#x96c6;&#x7fa4;" iconURI="platform:/plugin/com.bonc.rcp.dbtool.core/icons/view/databases.png" tooltip="&#x96c6;&#x7fa4;&#x5217;&#x8868;" closeable="true">
+      <tags>categoryTag:General</tags>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_-0eWoIR-EeqkEccoKo2azQ" elementId="com.bonc.xcloud..popupmenu.Listview"/>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_vWAn0J_5EeqwQOozwzsKpg" elementId="org.eclipse.ui.views.ContentOutline" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="&#x5927;&#x7eb2;" iconURI="platform:/plugin/org.eclipse.ui.views/$nl$/icons/full/eview16/outline_co.png" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:org.eclipse.ui</tags>
+      <menus xmi:id="_vWAn0Z_5EeqwQOozwzsKpg" elementId="org.eclipse.ui.views.ContentOutline">
+        <tags>ViewMenu</tags>
+      </menus>
+      <toolbar xmi:id="_vWAn0p_5EeqwQOozwzsKpg" elementId="org.eclipse.ui.views.ContentOutline"/>
+    </sharedElements>
+    <trimBars xmi:id="_lg6eUH-1EeqpqK3NZbab8w" elementId="org.eclipse.ui.main.toolbar"/>
+    <trimBars xmi:id="_mRZgEH-1EeqpqK3NZbab8w" elementId="org.eclipse.ui.trim.status" side="Bottom">
+      <children xsi:type="menu:ToolControl" xmi:id="_uDwCEH-1EeqpqK3NZbab8w" elementId="org.eclipse.ui.StatusLine" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim"/>
+      <children xsi:type="menu:ToolControl" xmi:id="__b56IIRqEeqkEccoKo2azQ" elementId="org.eclipse.ui.HeapStatus" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim"/>
+      <children xsi:type="menu:ToolControl" xmi:id="_ucQBoH-1EeqpqK3NZbab8w" elementId="org.eclipse.ui.ProgressBar" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim"/>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_iN2wAIFTEeqpqK3NZbab8w" elementId="com.bonc.rcp.dbtool.core.handler.exit" contributionURI="bundleclass://com.bonc.rcp.dbtool.core/com.bonc.rcp.dbtool.handlers.ExitHandlerWithCheck" command="_gPmJAIFSEeqpqK3NZbab8w"/>
+  <handlers xmi:id="_9CWl4IFWEeqkKvQsZAdgKQ" elementId="com.bonc.rcp.dbtool.core.handler.saveall" contributionURI="bundleclass://com.bonc.rcp.dbtool.core/com.bonc.rcp.dbtool.handlers.SaveAllHandler" command="_fxX78IFSEeqpqK3NZbab8w"/>
+  <handlers xmi:id="_9SQDEIFWEeqkKvQsZAdgKQ" elementId="com.bonc.rcp.dbtool.core.handler.save" contributionURI="bundleclass://com.bonc.rcp.dbtool.core/com.bonc.rcp.dbtool.handlers.SaveHandler" command="_fhqsAIFSEeqpqK3NZbab8w"/>
+  <handlers xmi:id="_O95I8IFYEeqkKvQsZAdgKQ" elementId="com.bonc.rcp.dbtool.core.handler.showview" contributionURI="bundleclass://com.bonc.rcp.dbtool.core/com.bonc.rcp.dbtool.handlers.showViewHandler" command="_gCPCcIFSEeqpqK3NZbab8w"/>
+  <rootContext xmi:id="_LFJUsH-2EeqpqK3NZbab8w" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_PUb_oH-2EeqpqK3NZbab8w" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_Pi2PEH-2EeqpqK3NZbab8w" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <descriptors xmi:id="_klnJIH-0EeqpqK3NZbab8w" elementId="org.eclipse.ui.views.ProgressView" label="&#x8fdb;&#x5ea6;" iconURI="platform:/plugin/org.eclipse.ui.ide//icons/full/eview16/pview.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>categoryTag:General</tags>
+    <tags>View</tags>
+  </descriptors>
+  <descriptors xmi:id="_P450EH-1EeqpqK3NZbab8w" elementId="org.eclipse.ui.console.ConsoleView" label="&#x63a7;&#x5236;&#x53f0;" iconURI="platform:/plugin/org.eclipse.ui.console/$nl$/icons/full/cview16/console_view.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://com.bonc.rcp.dbtool.core/com.bonc.rcp.dbtool.parts__&#x4e0d;&#x53ef;&#x590d;&#x7528;.NavigatorView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <commands xmi:id="_fhqsAIFSEeqpqK3NZbab8w" elementId="com.bonc.rcp.dbtool.core.command.save" commandName="save"/>
+  <commands xmi:id="_fxX78IFSEeqpqK3NZbab8w" elementId="com.bonc.rcp.dbtool.core.command.saveall" commandName="saveall"/>
+  <commands xmi:id="_gCPCcIFSEeqpqK3NZbab8w" elementId="com.bonc.rcp.dbtool.core.command.showview" commandName="showview">
+    <parameters xmi:id="_m2XZ8IFYEeqkKvQsZAdgKQ" elementId="com.bonc.rcp.dbtool.core.commandparameter.showview" name="showview name" optional="false"/>
+  </commands>
+  <commands xmi:id="_gPmJAIFSEeqpqK3NZbab8w" elementId="com.bonc.rcp.dbtool.core.command.exit" commandName="exit"/>
+  <commands xmi:id="_gdxu8IFSEeqpqK3NZbab8w" elementId="com.bonc.rcp.dbtool.core.command.prefernces" commandName="prefernces"/>
+  <addons xmi:id="_szuS0X4vEeqpqK3NZbab8w" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_szuS0n4vEeqpqK3NZbab8w" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_szuS034vEeqpqK3NZbab8w" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_szuS1H4vEeqpqK3NZbab8w" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_szuS1X4vEeqpqK3NZbab8w" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_szuS1n4vEeqpqK3NZbab8w" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_szuS134vEeqpqK3NZbab8w" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>

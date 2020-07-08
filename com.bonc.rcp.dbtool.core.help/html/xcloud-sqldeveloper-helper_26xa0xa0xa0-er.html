@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+				<title>2.6&#xa0;&#xa0;&#xa0;  导入数据库中的表到ER模型</title>
+		<link href="xcloud-sqldeveloper-helper.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body><h2 style="margin-left:57.15pt; text-indent:-28.8pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.6</span><span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0; </span> <a name="_Toc443396645">导入数据库中的表到ER模型</a></h2>
+			<p style="line-height:150%; font-size:10.5pt">有的时候需要用到数据库中的表作为ER建模的模型，提供了该功能。包括从行云数据库中导入表到建模的模型中，以及从Oracle数据库中导入表到建模的模型中。</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.6.1</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span> <a name="_Toc443396646">从行云数据库中导入</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">首先以普通用户登录数据库，右键点击模式节点下的用户，如图：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.315.jpg" width="385" height="220" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">点击“导出表到ER模型”，弹出如下对话框：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.316.jpg" width="431" height="339" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">指定文件名，选择文件所在路径后，点击“下一步”按钮：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.317.jpg" width="443" height="349" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">选择表后，点击“完成”按钮，这时系统新建了一个ER模型文件并打开，数据库中选择的表导到ER模型编辑器中。如图：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.318.jpg" width="509" height="259" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.6.2</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span> <a name="_Toc443396647">数据库数据类型映射</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">从Oracle数据库中导入表到建模的模型中之前，需要做一下Oracle数据库和行云数据库之间数据类型的映射。</p>
+			<p style="line-height:150%; font-size:10.5pt">在编辑器处于活动状态（处于焦点）时，点击主菜单的“Diagram”菜单项，选择“数据类型映射”，弹出如下对话框。</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.319.jpg" width="418" height="471" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">设置好Oracle数据库和行云数据库之间的数据类型映射关系后点击“确定”按钮，完成该操作。</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.6.3</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span> <a name="_Toc443396648">从Oracle数据库中导入</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">在完成了上述的数据库数据类型映射设置后，以普通用户登录数据库，右键点击Dblink节点下的用户，如图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.320.jpg" width="416" height="219" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">点击“导出表到ER模型”，弹出如下图向导框：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.321.jpg" width="439" height="345" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">指定文件名，选择文件所在路径后，点击“下一步”按钮：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.322.jpg" width="530" height="417" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">选择表后，点击“完成”按钮，这时系统新建了一个ER模型文件并打开，数据库中选择的表导到ER模型编辑器中。如图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.323.jpg" width="474" height="252" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.6.4</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span> <a name="_Toc443396649">从树节点拖拽</a></h3>
+			<p>以普通用户登录数据库，可以从树节点代表的表或者视图直接拖动到ER模型编辑器中。</p>
+			<p style="line-height:150%; font-size:10.5pt">选中要拖拽的表或者视图：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.324.jpg" width="232" height="174" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">按住左键不松手拖拽至ER编辑器后松手，ER编辑器会自动创建出该表对应的ER模型，如图：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.325.jpg" width="375" height="155" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">拖拽Oracle的表或者视图时，先设置Oracle和行云之间的数据类型映射，参照数据库数据类型映射。<a name="_添加集群"></a></p>
+			<p style="text-align:center">&#xa0;</p>
+			<p>&#xa0;</p>
+			<p style="text-indent:0pt">&#xa0;</p>
+			<p>&#xa0;</p>
+			</body>
+</html>

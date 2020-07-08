@@ -1,0 +1,317 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+				<title>2.4&#xa0;&#xa0;&#xa0;  ER编辑器的使用</title>
+		<link href="xcloud-sqldeveloper-helper.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body><h2 style="margin-left:57.15pt; text-indent:-28.8pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.4</span><span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0; </span> <a name="_Toc443396625">ER编辑器的使用</a></h2>
+			<p style="line-height:150%; font-size:10.5pt">ER编辑器用来编辑数据库模型，支持编辑表，表与表之间的关系等基本操作。</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.4.1</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span> <a name="_Toc443396626">创建表</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">在ER编辑器的画板上选择“新建表”：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.218.jpg" width="234" height="124" alt="" />
+			</p>
+			<p>然后拖动鼠标到编辑器任意位置，点击鼠标左键，这时编辑器中会出现一张空表，如图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.219.jpg" width="353" height="153" alt="" />
+			</p>
+			<p>双击表头，弹出编辑表的对话框：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.220.jpg" width="411" height="297" alt="" />
+			</p>
+			<p>选择“标记出信息”和“列信息”的选项卡，编辑表内容后，单击确定按钮，生成一张自定义的表：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.221.jpg" width="428" height="199" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.4.2</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span><a name="_Toc443396627">编辑表</a></h3>
+			<p>  ①、选中要编辑的表模型，双击出现表模型编辑窗口，如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.222.jpg" width="597" height="433" alt="" />
+			</p>
+			<p>其中在表基础信息中，包含表名、表描述和表类型，其中表类型分为事实表和维表，在列信息中主要包括对列信息的增删改查，在分区信息中包括对分区字段的修改，数据片管理主要是对数据片和数据片数量的编辑，查看SQl主要是生成表的SQL脚本，关联信息主要包含该表关联的外键信息，比对详情是该表和数据库中相同表名的对比详情，比对日志则是和数据库表同名的比对概述</p>
+			<p>②、在表基础信息中，默认表名和表描述是是新生成的表头，表类型默认为是事实表</p>
+			<p>③、在列信息中，包含：字段名称，编码，数据类型，数据长度，是否允许为空，分区字段，数据片字段，主键，外键，其中点击工具栏<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.223.jpg" width="36" height="27" alt="" />或者单击未编辑的表格可以实现增加一列数据，如下图</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.224.jpg" width="598" height="116" alt="" />
+			</p>
+			<p>&#xa0;</p>
+			<p>点击<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.225.jpg" width="31" height="25" alt="" />，实现删除一列数据并自动选中删除列的上一行（如果存在），如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.226.jpg" width="598" height="120" alt="" />
+			</p>
+			<p>&#xa0;</p>
+			<p>点击<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.227.jpg" width="29" height="21" alt="" />，可以实现将选中列位置下移，如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.228.jpg" width="598" height="107" alt="" />
+			</p>
+			<p>点击<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.229.jpg" width="29" height="19" alt="" />可以实现选中列位置上移，如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.230.jpg" width="598" height="106" alt="" />
+			</p>
+			<p>右键单击选中列，出现复制和粘贴菜单，如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.231.jpg" width="174" height="132" alt="" />
+			</p>
+			<p>单击复制，整列数据自动保存到系统粘贴板上。此时粘贴科操作，如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.232.jpg" width="188" height="137" alt="" />
+			</p>
+			<p>单击粘贴，则复制的列信息添加到原表格中如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.233.jpg" width="598" height="94" alt="" />
+			</p>
+			<p>其中列信息中的名称和编码不能重复。</p>
+			<p style="text-indent:0pt">④、单击数据片选项卡，进行数据片信息编辑如下图：</p>
+			<p style="text-indent:0pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.234.jpg" width="598" height="400" alt="" />
+			</p>
+			<p style="text-indent:0pt">其中左侧列表是列字段，右侧为数据片字段，可以双击左侧字段或者点击<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.235.jpg" width="60" height="32" alt="" />，实现添加数据片字段如下图：</p>
+			<p style="text-indent:0pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.236.jpg" width="598" height="59" alt="" />
+			</p>
+			<p style="text-indent:0pt">双击右侧数据片字段或者单击<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.237.jpg" width="62" height="32" alt="" />，注销数据片字段如下图：</p>
+			<p style="text-indent:0pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.238.jpg" width="598" height="87" alt="" />
+			</p>
+			<p style="text-indent:0pt">通过右下角的编辑框<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.239.jpg" width="141" height="32" alt="" />进行数据片数量的编辑如下图：</p>
+			<p style="text-indent:0pt; text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.240.jpg" width="171" height="33" alt="" />
+			</p>
+			<p style="text-indent:0pt">&#xa0;</p>
+			<p style="text-indent:0pt">⑤、单击分区信息选项卡，进行分区信息的编辑如下图：</p>
+			<p style="text-indent:0pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.241.jpg" width="598" height="432" alt="" />
+			</p>
+			<p style="text-indent:0pt">其中左侧为表字段，右侧为分区字段，双击左侧的表字段或者单击<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.235.jpg" width="60" height="32" alt="" />，表字段自动添加到分区字段中如下图：</p>
+			<p style="text-indent:0pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.242.jpg" width="598" height="61" alt="" />
+			</p>
+			<p style="text-indent:0pt">&#xa0;</p>
+			<p style="text-indent:0pt">双击右侧数据片字段或者单击<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.237.jpg" width="62" height="32" alt="" />，注销分区字段如下图：</p>
+			<p style="text-indent:0pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.243.jpg" width="598" height="68" alt="" />
+			</p>
+			<p style="text-indent:0pt">单击<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.244.jpg" width="68" height="31" alt="" />，则所有表字段注册为分区字段，如下图：</p>
+			<p style="text-indent:0pt; text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.245.jpg" width="597" height="79" alt="" />
+			</p>
+			<p style="text-indent:0pt">单击<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.246.jpg" width="62" height="32" alt="" />，则注销所有分区字段，如下图：</p>
+			<p style="text-indent:0pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.247.jpg" width="598" height="88" alt="" />
+			</p>
+			<p style="text-indent:0pt">⑥、单击查看SQL选项卡，主要是建表脚本如下图：</p>
+			<p style="text-indent:0pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.248.jpg" width="551" height="222" alt="" />
+			</p>
+			<p style="text-indent:0pt">单击复制，则建表脚本自动复制到系统粘贴板上</p>
+			<p style="text-indent:0pt">⑦、单击确定按钮，完成表信息的编辑，如下图：</p>
+			<p style="text-indent:0pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.249.jpg" width="468" height="199" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.4.3</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span><a name="_Toc443396628">部署表模型</a></h3>
+			<p>①、打开ER模型文件，在工具栏中找到部署按钮，如下图</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.250.jpg" width="456" height="82" alt="" />
+			</p>
+			<p>②、点击部署按钮，出现部署设置如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.251.jpg" width="534" height="300" alt="" />
+			</p>
+			<p>其中连接名是已经连接的且存在模式选项的数据库连接点列表，否则部署操作不能执行</p>
+			<p>③、选好连接名和模式之后，点击部署，当部署成功后点击部署日志图标<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.252.jpg" width="29" height="31" alt="" />，出现部署日志如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.253.jpg" width="598" height="288" alt="" />
+			</p>
+			<p>④、刷新数据库连接点，新表出现在表列中如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.254.jpg" width="218" height="176" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.4.4</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span><a name="_Toc443396629">部署日志</a></h3>
+			<p>①、找到工具栏中的部署日志图标，如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.255.jpg" width="554" height="69" alt="" />
+			</p>
+			<p>②、点击工具栏中的部署日志按钮，则会出现总的部署日志如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.256.jpg" width="598" height="466" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.4.5</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span><a name="_Toc443396630">比对模型</a></h3>
+			<h4 style="margin-left:92.85pt; text-indent:-43.2pt">2.4.5.1<span style="font:7.0pt 'Times New Roman'"> </span>数据库模型与ER模型的比较</h4>
+			<p>①、打开需要比较的ER模型文件，如下图</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.257.jpg" width="598" height="330" alt="" />
+			</p>
+			<p>②、选中工具栏中的比对图标如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.258.jpg" width="555" height="79" alt="" />
+			</p>
+			<p>③、点击比对图标，设置比对信息如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.259.jpg" width="532" height="258" alt="" />
+			</p>
+			<p>&#xa0;</p>
+			<p>④、设置好比对信息后，点击比对图标进行比对，然后点击比对日志图标<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.260.jpg" width="27" height="24" alt="" />，查看比对日志，出现比对日志如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.261.jpg" width="598" height="452" alt="" />
+			</p>
+			<p>⑤、如果ER文件模型与数据库模型存在区别，在模型出现提示图标，如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.262.jpg" width="412" height="166" alt="" />
+			</p>
+			<p>⑥、此时双击表模型，在比对详情选项卡中可以查看到比对的具体信息如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.263.jpg" width="598" height="112" alt="" />
+			</p>
+			<p>在比对日志选项卡中，可以看到比对日志如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.264.jpg" width="531" height="137" alt="" />
+			</p>
+			<h4 style="margin-left:92.85pt; text-indent:-43.2pt">2.4.5.2<span style="font:7.0pt 'Times New Roman'"> </span>模型与模型的比对</h4>
+			<p style="text-indent:0pt">①、选中ER模型文件中的两个表模型（只能选择两个），右键出现比对模型菜单，此时根据栏的比对模型图标也可使用，如下图：</p>
+			<p style="text-indent:0pt; text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.265.jpg" width="352" height="423" alt="" />
+			</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.266.jpg" width="559" height="71" alt="" />
+			</p>
+			<p>②、点击①中的任意入口，出现比对详情，如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.267.jpg" width="598" height="152" alt="" />
+			</p>
+			<h4 style="margin-left:92.85pt; text-indent:-43.2pt">2.4.5.3<span style="font:7.0pt 'Times New Roman'"> </span>比对日志</h4>
+			<p>①、找到工具栏中的比对日志图标，如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.268.jpg" width="536" height="76" alt="" />
+			</p>
+			<p>②、点击工具栏中的比对日志图标，则会出现总的比对日志如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.269.jpg" width="598" height="476" alt="" />
+			</p>
+			<p>&#xa0;</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.4.6</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span><a name="_Toc443396631">表模型的关联</a></h3>
+			<p>①、Table1中id是其主键，Table2中的id是其外键，如下图</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.270.jpg" width="419" height="324" alt="" />
+			</p>
+			<p>②、双击Table1表模型，打开关联信息选项卡，可以查看其外键信息，如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.271.jpg" width="535" height="145" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.4.7</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span><a name="_Toc443396632">表模型的样式修改</a></h3>
+			<p>①、选中要修改样式的表模型，如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.272.jpg" width="465" height="205" alt="" />
+			</p>
+			<p>②、点击工具栏中的字体列表<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.273.jpg" width="188" height="34" alt="" />，选中要修改成的字体样式</p>
+			<p>效果如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.274.jpg" width="573" height="332" alt="" />
+			</p>
+			<p>③、点击工具栏的字体大小选项列表<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.275.jpg" width="49" height="32" alt="" />，选中要改成的字体大小，效果如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.276.jpg" width="557" height="314" alt="" />
+			</p>
+			<p>④、点击工具栏中的斜体，效果如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.277.jpg" width="550" height="267" alt="" />
+			</p>
+			<p>⑤、点击工具栏中的粗体，效果如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.278.jpg" width="565" height="252" alt="" />
+			</p>
+			<p>&#xa0;</p>
+			<p>⑥、点击设置背景颜色选项，效果如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.279.jpg" width="463" height="243" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.4.8</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span><a name="_Toc443396633">导出SQl脚本</a></h3>
+			<p>①、打开已存在的ER模型文件，在工具栏中找到导出SQL图标，如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.280.jpg" width="598" height="67" alt="" />
+			</p>
+			<p>②、点击导出模型图标，弹出保存脚本对话框选择保存的地址，并输入脚本名称，如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.281.jpg" width="598" height="296" alt="" />
+			</p>
+			<p style="text-align:left">③、点击保存，在存储路径下找到保存的脚本，打开如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.282.jpg" width="546" height="341" alt="" />
+			</p>
+			<p>&#xa0;</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.4.9</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span> <a name="_Toc443396634">创建关系</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">当创建好两张表后或者已经导入了两张表（后文介绍），如图：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.283.jpg" width="411" height="355" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">在ER编辑器的画板上选择“连接”：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.284.jpg" width="270" height="141" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">然后点击编辑器上的一张表不松手，拖动鼠标至另外一张表松手，这时两张表已经建立了关系。如图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.285.jpg" width="416" height="357" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.4.10</span><span style="font:7.0pt 'Times New Roman'"> </span> <a name="_Toc443396635">编辑关系</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">表与表之间可以创建关系，同时也能编辑关系。</p>
+			<p style="line-height:150%; font-size:10.5pt">选中关系（连线），当关系两端出现端点即为选中：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.286.jpg" width="413" height="199" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">双击关系，弹出编辑关系的对话框，如图：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.287.jpg" width="490" height="432" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">在这里，可以查看和编辑两张表之间的关系，通过名称和编码对应的文本框改变关系的名称和编码，两个下拉框可以指定父表和字表。点击另外一个选项卡，如图：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.288.jpg" width="490" height="405" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">这里可以编辑两张表之间的主外键关系，例如上述两张表，父表（CODE_AAA）的主键（DINNER_ID）对应子表（DIM_AREA）的外键（DINNER_ID），在这修改子表（DIM_AREA）的外键为AREA_ID，使子表（DIM_AREA）得AREA_ID既是其主键又是其外键，修改如下：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.289.jpg" width="470" height="118" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">点击确定按钮，效果如图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.290.jpg" width="416" height="359" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.4.11</span><span style="font:7.0pt 'Times New Roman'"> </span> <a name="_Toc443396636">删除表和关系</a></h3>
+			<p>提供了删除表和删除关系的基本功能方便ER模型的编辑。</p>
+			<p>选中指定要删除的表模型，右键点击该表模型，选择Delete from Model如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.291.jpg" width="327" height="194" alt="" />
+			</p>
+			<p>同时，也可以选中要指定删除的表模型，按下键盘上的Delete键也可以删除。</p>
+			<p>删除关系后，两张表之间的主外键关系一并删除。删除关系操作参照删除表模型操作。</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.4.12</span><span style="font:7.0pt 'Times New Roman'"> </span> <a name="_Toc443396637">最小化编辑器上的所有表</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">有时候，编辑器上的表过多会让人在编辑时感到不方便，因此对编辑器上的表模型提供了最小化功能。</p>
+			<p style="line-height:150%; font-size:10.5pt">在编辑器处于活动状态（处于焦点）时，点击工具栏上<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.292.jpg" width="25" height="25" alt="" />按钮，编辑器上的所有表模型都会最小化，效果如下图：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.293.jpg" width="419" height="231" alt="" />
+			</p>
+			<p>再次点击<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.292.jpg" width="25" height="25" alt="" />按钮时，所有表模型会复原。</p>
+			<p>也可以通过单个表模型右上方的按钮控制单个表模型的最大最小化，如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.294.jpg" width="408" height="155" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.4.13</span><span style="font:7.0pt 'Times New Roman'"> </span> <a name="_Toc443396638">切换名称和编码的显示</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">其中名称（Name）表示模型的显示名称，是给非技术人员看的。编码（Code）表示模型的技术名称，用于生成代码的。默认是显示编码，可以通过工具栏<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.295.jpg" width="24" height="21" alt="" />按钮来切换显示编码还是显示名称。</p>
+			<p style="line-height:150%; font-size:10.5pt">如下图表模型，默认表名显示的是编码（Code）。</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.296.jpg" width="319" height="112" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">当点击工具栏<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.295.jpg" width="24" height="21" alt="" />按钮切换成显示名称后，效果如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.297.jpg" width="319" height="114" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">2.4.14</span><span style="font:7.0pt 'Times New Roman'"> </span> <a name="_Toc443396639">编辑器画布放大和缩小</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">当编辑器画布上的表模型非常多时，为了更方便的对画布上的模型进行编辑，提供了放大和缩小功能。</p>
+			<p style="line-height:150%; font-size:10.5pt">工具栏上的放大缩小下拉框可以调整画布的显示比例，如图：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.298.jpg" width="597" height="54" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">也可以在编辑器处于活动状态（处于焦点）时，按住Ctrl键同时滚动鼠标滚轮来调整画布的显示比例。</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.299.jpg" width="466" height="375" alt="" />
+			</p>
+			</body>
+</html>

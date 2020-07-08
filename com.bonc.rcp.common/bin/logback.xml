@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+   <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <Encoding>UTF-8</Encoding>
+        <!--
+        日志输出格式：%d表示日期时间，%thread表示线程名，%-5level：级别从左显示5个字符宽度
+        %logger{50} 表示logger名字最长50个字符，否则按照句点分割。 %msg：日志消息，%n是换行符
+        -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level [%file:%line] - %msg%n</pattern>
+        </layout>
+        <!-- 只输出指定级别日志
+            <filter class="ch.qos.logback.classic.filter.LevelFilter">  
+            <level>debug</level>  
+            <onMatch>ACCEPT</onMatch>    
+            <onMismatch>DENY</onMismatch>    
+        </filter>   -->
+        <!-- 只输出指定级别以上的的日志 -->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>debug</level>
+		  </filter> 
+    </appender>
+   <appender name="a" class="ch.qos.logback.core.rolling.RollingFileAppender">
+       <File>${user.dir}/log/app.log</File>
+       <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+         <FileNamePattern>${user.dir}/log/app.%i.log</FileNamePattern>    
+         <MinIndex>1</MinIndex>    
+         <MaxIndex>5</MaxIndex>    
+       </rollingPolicy>  
+       <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">  
+         <MaxFileSize>5MB</MaxFileSize>    
+       </triggeringPolicy>  
+       <layout class="ch.qos.logback.classic.PatternLayout">  
+        <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level [%file:%line] - %msg%n</Pattern>    
+       </layout>  
+    </appender>
+    
+      <appender name="cache" class="ch.qos.logback.core.rolling.RollingFileAppender">
+       <File>${user.dir}/log/cache.log</File>
+       <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+         <FileNamePattern>${user.dir}/log/cache.%i.log</FileNamePattern>    
+         <MinIndex>1</MinIndex>    
+         <MaxIndex>5</MaxIndex>    
+       </rollingPolicy>  
+       <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">  
+         <MaxFileSize>5MB</MaxFileSize>    
+       </triggeringPolicy>  
+       <layout class="ch.qos.logback.classic.PatternLayout">  
+        <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level [%file:%line] - %msg%n</Pattern>    
+       </layout>  
+    </appender>
+    
+     <appender name="b" class="ch.qos.logback.core.rolling.RollingFileAppender">
+       <File>${user.dir}/log/task.log</File>
+       <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+         <FileNamePattern>${user.dir}/log/task.%i.log</FileNamePattern>    
+         <MinIndex>1</MinIndex>    
+         <MaxIndex>5</MaxIndex>    
+       </rollingPolicy>  
+       <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">  
+         <MaxFileSize>5MB</MaxFileSize>    
+       </triggeringPolicy>  
+       <layout class="ch.qos.logback.classic.PatternLayout">  
+        <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level [%file:%line] - %msg%n</Pattern>    
+       </layout>  
+    </appender>
+    
+   <appender name="c" class="ch.qos.logback.core.rolling.RollingFileAppender">
+       <File>${user.dir}/log/procedure_detail.log</File>
+       <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+         <FileNamePattern>${user.dir}/log/procedure_detail.%i.log</FileNamePattern>    
+         <MinIndex>1</MinIndex>    
+         <MaxIndex>5</MaxIndex>    
+       </rollingPolicy>  
+       <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">  
+         <MaxFileSize>5MB</MaxFileSize>    
+       </triggeringPolicy>  
+       <layout class="ch.qos.logback.classic.PatternLayout">  
+        <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level [%file:%line] - %msg%n</Pattern>    
+       </layout>  
+    </appender>
+     <appender name="s" class="ch.qos.logback.core.rolling.RollingFileAppender">
+       <File>${user.dir}/log/procedure_sdk.log</File>
+       <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+         <FileNamePattern>${user.dir}/log/procedure_sdk.%i.log</FileNamePattern>    
+         <MinIndex>1</MinIndex>    
+         <MaxIndex>5</MaxIndex>    
+       </rollingPolicy>  
+       <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">  
+         <MaxFileSize>5MB</MaxFileSize>    
+       </triggeringPolicy>  
+       <layout class="ch.qos.logback.classic.PatternLayout">  
+        <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level [%file:%line] - %msg%n</Pattern>    
+       </layout>  
+    </appender>
+     <appender name="debug" class="ch.qos.logback.core.rolling.RollingFileAppender">
+       <File>${user.dir}/log/debug.log</File>
+       <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+         <FileNamePattern>${user.dir}/log/debug.%i.log</FileNamePattern>    
+         <MinIndex>1</MinIndex>    
+         <MaxIndex>5</MaxIndex>    
+       </rollingPolicy>  
+       <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">  
+         <MaxFileSize>5MB</MaxFileSize>    
+       </triggeringPolicy>  
+       <layout class="ch.qos.logback.classic.PatternLayout">  
+        <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level [%file:%line] - %msg%n</Pattern>    
+       </layout>  
+    </appender>
+    <appender name="systemTracking" class="ch.qos.logback.core.rolling.RollingFileAppender">
+       <File>${user.dir}/log/systemTracking.log</File>
+       <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+         <FileNamePattern>${user.dir}/log/debug.%i.log</FileNamePattern>    
+         <MinIndex>1</MinIndex>    
+         <MaxIndex>5</MaxIndex>    
+       </rollingPolicy>  
+       <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">  
+         <MaxFileSize>5MB</MaxFileSize>    
+       </triggeringPolicy>  
+       <layout class="ch.qos.logback.classic.PatternLayout">  
+        <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level [%file:%line] - %msg%n</Pattern>    
+       </layout>  
+    </appender>
+	<appender name="ASYNC" class="ch.qos.logback.classic.AsyncAppender">   
+      <appender-ref ref="a" />  
+      <!-- add the following line -->  
+      <includeCallerData>true</includeCallerData>
+         <!-- 不丢失日志.默认的,如果队列的80%已满,则会丢弃TRACT、DEBUG、INFO级别的日志 -->  
+            <discardingThreshold >0</discardingThreshold>  
+            <!-- 更改默认的队列的深度,该值会影响性能.默认值为256 -->  
+            <queueSize>512</queueSize>    
+    </appender>  
+     <appender name="ASYNCCACHE" class="ch.qos.logback.classic.AsyncAppender">  
+      <appender-ref ref="cache" />  
+      <!-- add the following line -->  
+      <includeCallerData>true</includeCallerData>
+         <!-- 不丢失日志.默认的,如果队列的80%已满,则会丢弃TRACT、DEBUG、INFO级别的日志 -->  
+            <discardingThreshold >0</discardingThreshold>  
+            <!-- 更改默认的队列的深度,该值会影响性能.默认值为256 -->  
+            <queueSize>512</queueSize>    
+    </appender> 
+    
+    <appender name="ASYNCT" class="ch.qos.logback.classic.AsyncAppender">  
+      <appender-ref ref="b" />  
+      <!-- add the following line -->  
+      <includeCallerData>true</includeCallerData>
+         <!-- 不丢失日志.默认的,如果队列的80%已满,则会丢弃TRACT、DEBUG、INFO级别的日志 -->  
+            <discardingThreshold >0</discardingThreshold>  
+            <!-- 更改默认的队列的深度,该值会影响性能.默认值为256 -->  
+            <queueSize>512</queueSize>    
+    </appender>  
+    <appender name="ASYNCD" class="ch.qos.logback.classic.AsyncAppender">  
+      <appender-ref ref="c" />  
+      <!-- add the following line -->  
+      <includeCallerData>true</includeCallerData>
+         <!-- 不丢失日志.默认的,如果队列的80%已满,则会丢弃TRACT、DEBUG、INFO级别的日志 -->  
+            <discardingThreshold >0</discardingThreshold>  
+            <!-- 更改默认的队列的深度,该值会影响性能.默认值为256 -->  
+            <queueSize>512</queueSize>    
+    </appender>  
+    <appender name="ASYNS" class="ch.qos.logback.classic.AsyncAppender">  
+      <appender-ref ref="s" />  
+      <!-- add the following line -->  
+      <includeCallerData>true</includeCallerData>
+         <!-- 不丢失日志.默认的,如果队列的80%已满,则会丢弃TRACT、DEBUG、INFO级别的日志 -->  
+            <discardingThreshold >0</discardingThreshold>  
+            <!-- 更改默认的队列的深度,该值会影响性能.默认值为256 -->  
+            <queueSize>512</queueSize>    
+    </appender>
+    <appender name="ASYNDEBUG" class="ch.qos.logback.classic.AsyncAppender">  
+      <appender-ref ref="debug" />  
+      <!-- add the following line -->  
+      <includeCallerData>true</includeCallerData>
+         <!-- 不丢失日志.默认的,如果队列的80%已满,则会丢弃TRACT、DEBUG、INFO级别的日志 -->  
+            <discardingThreshold >0</discardingThreshold>  
+            <!-- 更改默认的队列的深度,该值会影响性能.默认值为256 -->  
+            <queueSize>512</queueSize>    
+    </appender>    
+    <appender name="ASYNDSYSTEM" class="ch.qos.logback.classic.AsyncAppender">  
+      <appender-ref ref="systemTracking" />  
+      <!-- add the following line -->  
+      <includeCallerData>true</includeCallerData>
+         <!-- 不丢失日志.默认的,如果队列的80%已满,则会丢弃TRACT、DEBUG、INFO级别的日志 -->  
+            <discardingThreshold >0</discardingThreshold>  
+            <!-- 更改默认的队列的深度,该值会影响性能.默认值为256 -->  
+            <queueSize>512</queueSize>    
+    </appender>    
+ <logger name="app" level="DEBUG">  
+     <appender-ref ref="ASYNC" />
+ </logger>
+  <logger name="cache" level="DEBUG">  
+     <appender-ref ref="ASYNCCACHE" />
+ </logger>
+ <logger name="task" level="DEBUG"> 
+     <appender-ref ref="ASYNCT" />
+ </logger>
+  <logger name="procedure_detail" level="DEBUG">  
+     <appender-ref ref="ASYNCD" />
+ </logger>
+  <logger name="loggerInfo" level="DEBUG">  
+     <appender-ref ref="ASYNS" />
+ </logger>
+ <logger name="systemTracking" level="DEBUG">  
+     <appender-ref ref="ASYNDSYSTEM" />
+ </logger>
+ <logger name="debug" level="DEBUG">  
+     <appender-ref ref="ASYNDEBUG" />
+ </logger>
+  <logger name="org.slf4j.helpers" level="off">  
+ </logger>
+ <logger name="org.apache.zookeeper" level="off">  
+ </logger>
+ <logger name="org.apache.thrift.transport" level="off"></logger>
+    <!-- By default, the level of the root level is set to DEBUG -->  
+      <property name="consoleLayoutPattern" value="%d{yyyy-MM-dd HH:mm:ss,SSS} %5p  - %m%n" />
+
+<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <layout name="StandardFormat" class="ch.qos.logback.classic.PatternLayout">
+        <pattern>${consoleLayoutPattern}</pattern>
+    </layout>
+</appender>
+
+<root level="debug">
+        <appender-ref ref="CONSOLE" />
+</root>
+ </configuration>  
+ 

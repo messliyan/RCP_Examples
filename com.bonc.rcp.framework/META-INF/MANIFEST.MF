@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Framework
+Bundle-SymbolicName: com.bonc.rcp.framework
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: BONC
+Automatic-Module-Name: com.bonc.rcp.framework
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

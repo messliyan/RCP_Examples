@@ -1,0 +1,145 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+				<title>1.3&#xa0;&#xa0;&#xa0; 用户管理</title>
+		<link href="xcloud-sqldeveloper-helper.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body><h2 style="margin-left:0pt; text-indent:0pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">1.3</span><span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0; </span><a name="_Toc443396577">用户管理</a></h2>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">1.3.1</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span> <a name="_Toc443396578">新建用户</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">以“system”用户创建连接成功后，提供创建用户功能，选中“用户”节点，右键单击弹出如下菜单：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.035.jpg" width="209" height="122" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">单击新建用户出现如下图对话框：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.036.jpg" width="363" height="183" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">填写用户名和密码，点击确定按钮成功创建用户；点击查看SQL可以查看新建用户的SQL语句，如下图：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.037.jpg" width="488" height="324" alt=""  />
+			</p>	
+			<p style="line-height:150%; font-size:10.5pt">点击复制按钮可以复制该操作的SQL语句到剪切板。</p>
+			<p style="line-height:150%; font-size:10.5pt">创建用户成功后左侧节点增加该用户，如图：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.038.jpg" width="180" height="160" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">1.3.2</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span> <a name="_Toc443396579">用户视图</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">以“system”用户登录成功后，可提供查看用户视图功能，该功能可以查看当前连接下的所有的用户。查看用户视图有两个入口，可以双击“用户”节点，也可以右击“用户”节点选择弹出菜单。选中“用户”节点，右键单击弹出菜单，如图：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.039.jpg" width="222" height="176" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">单击用户视图，该视图下展示的当前连接下的所有用户名称以及该用户所在的数据库名，如图：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.040.jpg" width="534" height="182" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">1.3.3</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span> <a name="_Toc443396580">刷新</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">以“system”用户登录成功后，提供用户导航节点刷新功能，右键“用户”节点，点击刷新，执行刷新，用户节点将重新加载数据。如图：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.041.jpg" width="248" height="158" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">1.3.4</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span> <a name="_Toc443396581">密码重置</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">密码重置功能包括对systemadmin用户、system用户和普通用户的登录密码进行重置。</p>
+			<h4 style="margin-left:92.85pt; text-indent:-92.85pt">1.3.4.1<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0;&#xa0; </span> systemadmin用户的密码重置</h4>
+			<p style="line-height:150%; font-size:10.5pt">以“systemadmin”用户登录成功后，在已经连接成功的链接上右键弹出菜单，如图：</p>
+			<p style="line-height:150%; font-size:10.5pt"> <img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.042.jpg" width="326" height="173" alt="" /></p>
+			<p style="line-height:150%; font-size:10.5pt">单击密码重置，出现如图所示的对话框：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.043.jpg" width="333" height="183" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">输入新的密码，单击确定按钮，成功修改密码。单击查看SQL按钮可以查看重置该用户密码的SQL语句，如下图：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.044.jpg" width="337" height="293" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">单击复制按钮可以复制该操作的SQL语句到剪切板。</p>
+			<h4 style="margin-left:92.85pt; text-indent:-92.85pt">1.3.4.2<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0;&#xa0; </span> system用户的密码重置</h4>
+			<p style="line-height:150%; font-size:10.5pt">以“system”用户登录成功后，在已经连接成功的链接上右键弹出菜单，如图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.045.jpg" width="303" height="145" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">单击密码重置，出现如图所示的对话框：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.046.jpg" width="333" height="183" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">输入新的密码，单击确定按钮，成功修改密码。单击查看SQL按钮可以查看重置该用户密码的SQL语句，具体效果参照对systemadmin用户进行密码重置。</p>
+			<h4 style="margin-left:92.85pt; text-indent:-92.85pt">1.3.4.3<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0;&#xa0; </span> 普通用户的密码重置</h4>
+			<p style="line-height:150%; font-size:10.5pt">普通用户的密码重置有两个入口，一个是普通用户登录自己重置密码，另一个是system用户登录重置指定普通用户的密码。</p>
+			<p style="line-height:150%; font-size:10.5pt">普通用户登录成功后，在用户节点上右键弹出菜单，单击重置密码，如下图所示：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.047.jpg" width="333" height="84" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">以“system”用户登录成功后，展开“用户”节点，右击需要密码重置的用户后弹出右键菜单，单击密码重置，如图所示：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.048.jpg" width="268" height="128" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">以上两种操作，出现如图所示的对话框：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.049.jpg" width="333" height="183" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">输入新的密码，单击确定按钮，成功修改密码。单击查看SQL按钮可以查看重置该用户密码的SQL语句，具体效果参照对systemadmin用户进行密码重置。</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">1.3.5</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span> <a name="_Toc443396582">权限管理</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">提供用户授权功能，将SCHEMA赋权给用户，可选择批量赋权模式。权限管理分为system用户对普通用户授权和具有授权权限的普通用户对其他用户授权两部分。</p>
+			<h4 style="margin-left:92.85pt; text-indent:-92.85pt">1.3.5.1<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0;&#xa0; </span> System用户授权</h4>
+			<p style="line-height:150%; font-size:10.5pt">以“system”用户登录成功后，可以为普通用户进行权限管理。展开“用户”节点，右击需要授予或回收权限的用户后弹出右键菜单，如图所示：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.050.jpg" width="258" height="165" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">单击权限管理，弹出带有两个选项卡的窗口，可以对用户权限进行设置，权限包括：select,create,update,drop,insert,alter,truncate,delete八种，同时也可以对对象权限和系统权限进行设置。</p>
+			<p style="line-height:150%; font-size:10.5pt">编辑用户的用户权限和对象权限的选项卡如图所示的对话框：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.051.jpg" width="505" height="359" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">编辑用户具有的系统权限选项卡的对话框如下图：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.052.jpg" width="511" height="363" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">点击完成按钮可以对用户权限进行保存。单击查看SQL按钮可以查看保存用户权限的SQL语句。如下图：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.053.jpg" width="494" height="429" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">单击复制按钮可以复制执行该操作的SQL语句到剪切板。</p>
+			<h4 style="margin-left:92.85pt; text-indent:-92.85pt">1.3.5.2<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0;&#xa0; </span> 具有授权权限的普通用户授权</h4>
+			<p style="line-height:150%; font-size:10.5pt">以普通用户登录成功后，如果该用户具有可以给其他普通用户授权的权限，则该用户可以为普通用户进行权限管理。如果该用户不具有给其它普通用户授权的权限，可以以system用户登录后赋予该用户具有该权限。</p>
+			<p style="line-height:150%; font-size:10.5pt">以普通用户FEUSER为例，其具有给其他普通用户授权的权限，入口为右击对需要权限管理的用户。右击该登录用户，权限管理菜单不可用；右击其他用户，权限管理菜单可用。如下图:</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.054.jpg" width="226" height="159" alt="" />  <img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.055.jpg" width="247" height="160" alt="" /></p>
+			<p style="line-height:150%; font-size:10.5pt">点击权限管理，弹出如下对话框：</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.056.jpg" width="457" height="324" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">具体操作效果参考system用户下的用户授权。</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">1.3.6</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span> <a name="_Toc443396583">删除用户</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">以“system”用户登录成功后，提供删除用户功能，展开“用户”节点，右击需要删除的用户，如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.057.jpg" width="276" height="155" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">单击删除，弹出如图所示的对话框，点击确定删除用户成功。</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.058.jpg" width="500" height="150" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">单击查看SQL，可以查看删除用户的SQL语句。</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.059.jpg" width="407" height="353" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">单击复制按钮可以可以复制SQL语句到剪切板。</p>
+			<p style="line-height:150%; font-size:10.5pt">用户删除成功后左侧树节点该用户消失。</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">1.3.6</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span> <a name="_Toc543396583">进程组管理</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">以“system”用户登录成功后，提供进程组管理功能，右击选择进程组管理，如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.userspc.jpg" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">弹出如图所示的对话框，点击完成进程组授权成功。</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.userspccheck.jpg" width="600" height="400" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">以“system”用户登录成功后，提供进程组管理功能，右击选择进程组管理，如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.userpc.jpg" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">弹出如图所示的对话框，点击完成进程组授权成功。</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.userpccheck.jpg" width="600" height="400" alt="" />
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:center; widows:2; orphans:2"><strong><span style="font-size:11pt; ">&#xa0;</span></strong></p>
+			</body>
+</html>

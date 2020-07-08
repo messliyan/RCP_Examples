@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+   id="org.eclipse.ui.examples.rcp.texteditor"
+   name="%pluginName"
+   version="3.1.100.qualifier"
+   provider-name="%providerName">
+
+   <runtime>
+      <library name=".">
+         <export name="*"/>
+      </library>
+   </runtime>
+
+   <requires>
+      <import plugin="org.eclipse.ui" version="3.1.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+   </requires>
+   
+
+   
+   
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            id="org.eclipse.ui.examples.rcp.texteditor.editors.xml.XMLEditor"
+            icon="icons/text.gif"
+            name="Sample XML Editor"
+            class="org.eclipse.ui.examples.rcp.texteditor.editors.xml.XMLEditor"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            extensions="xml,html"/>
+      <editor
+            id="org.eclipse.ui.examples.rcp.texteditor.editors.py.PythonEditor"
+            icon="icons/text.gif"
+            name="Sample Python Editor"
+            class="org.eclipse.ui.examples.rcp.texteditor.editors.python.PythonEditor"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            extensions="py"/>
+      <editor
+            id="org.eclipse.ui.examples.rcp.texteditor.editors.SimpleEditor"
+            icon="icons/text.gif"
+            name="Sample Editor"
+            class="org.eclipse.ui.examples.rcp.texteditor.editors.SimpleEditor"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            default="true"/>
+   </extension>
+   <extension
+         point="org.eclipse.swt.examples.launcher.launchItems">
+      <item
+            category="org.dadacoalition.yedit.category.byte"
+            description="xml编辑器 由org.eclipse.ui.examples.rcp.texteditor扩展点提供"
+            enabled="true"
+            icon="icons/text.gif"
+            id="org.eclipse.ui.examples.rcp.texteditor.xml.item"
+            name="Sample XML Editor">
+         <program
+               mainClass="org.eclipse.ui.examples.rcp.texteditor.XMLEditorExampleTest"
+               pluginId="org.eclipse.ui.examples.rcp.texteditor">
+         </program>
+      </item>
+      <item
+            category="org.dadacoalition.yedit.category.byte"
+            description="Python 编辑器 由org.eclipse.ui.examples.rcp.texteditor扩展点提供"
+            enabled="true"
+            icon="icons/text.gif"
+            id="org.eclipse.ui.examples.rcp.texteditor.python.item"
+            name="Sample Python Editor">
+         <program
+               mainClass="org.eclipse.ui.examples.rcp.texteditor.PythonEditorExampleTest"
+               pluginId="org.eclipse.ui.examples.rcp.texteditor">
+         </program>
+      </item>
+      <item
+            category="org.dadacoalition.yedit.category.byte"
+            description="text l编辑器 由org.eclipse.ui.examples.rcp.texteditor扩展点提供"
+            enabled="true"
+            icon="icons/text.gif"
+            id="org.eclipse.ui.examples.rcp.texteditor.enitor.item"
+            name="Sample  Editor">
+         <program
+               mainClass="org.eclipse.ui.examples.rcp.texteditor.SmapleEditorExampleTest"
+               pluginId="org.eclipse.ui.examples.rcp.texteditor">
+         </program>
+      </item>
+   </extension>
+   
+   
+   
+   <!-- must come after the command definition above -->
+   
+</plugin>

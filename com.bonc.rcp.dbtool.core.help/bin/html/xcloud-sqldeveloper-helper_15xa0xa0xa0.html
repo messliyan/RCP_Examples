@@ -1,0 +1,345 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+				<title>1.5&#xa0;&#xa0;&#xa0; 表视图</title>
+		<link href="xcloud-sqldeveloper-helper.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body><h2 style="margin-left:57.15pt; text-indent:-28.8pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">1.5</span><span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0; </span><a name="_Toc419204420"></a><a name="_Toc443396587">表视图</a> </h2>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">1.5.1</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span><a name="_Toc443396588">查看表视图</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">①、以” feurse”（普通用户）用户创建连接成功后，可以查看用户下的所有表，入口有两个，双击“表”，或者右键“表”，单击“表视图”如图</p>
+			<p style="text-align:center; line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.063.jpg" width="295" height="126" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">②、表视图中描述了该用户下的所有表名、创建时间、用户名，SLICE数量，数据库名等基本信息。如图 </p>
+			<p style="text-align:center; line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.064.jpg" width="576" height="146" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">1.5.2</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span><a name="_Toc443396589">新建表</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">①、右键单击表节点，出现“新建表”如图</p>
+			<p style="text-align:center; line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.065.jpg" width="298" height="119" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">②、单击新建表。新建表时需要填写表的基本信息和表属性列．基本信息包括表的所有者，也就是表是属于哪个用户下的，表名称，数据片数，是否是维表，表的描述，如图</p>
+			<p style="text-align:center; line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.066.jpg" width="598" height="303" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">③、表属性是表中包含的字段，四个图标<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.067.jpg" width="117" height="23" alt="" />，分别是“新增属性”，“删除属性”，“上移”，“下移”。新增属性的时候需填写属性名，数据类型，数据长度，YearOrDay精度，Second精度，TimeStamp精度，是否允许空，分区字段，数据片字段，对属性的描述。所有内容都填写完毕如图</p>
+			<p style="text-align:center; line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.068.jpg" width="576" height="295" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">④、单击“查看sql”按钮查看生成表的sql语句，如图</p>
+			<p style="margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:center; widows:2; orphans:2">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.069.jpg" width="598" height="301" alt="" />
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:left; widows:2; orphans:2">单击复制按钮，创表语句自动复制到系统粘贴板上</p>
+			<p style="margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:left; widows:2; orphans:2">⑤、单击“完成”，实现建表，建表成功后会出现如下弹框：</p>
+			<p style="margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:center; widows:2; orphans:2">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.070.jpg" width="598" height="309" alt="" />
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:left; widows:2; orphans:2"><span style="font-family:宋体; font-size:12pt">&#xa0;</span></p>
+			<p style="margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:left; widows:2; orphans:2"><span style="font-size:12pt">⑥、建表成功后，刷新该节点，左侧树节点增加该表如图：</span></p>
+			<p style="margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:center; widows:2; orphans:2">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.071.jpg" width="241" height="51" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">1.5.3</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span><a name="_Toc443396590">刷新表</a></h3>
+			<p style="line-height:150%; font-size:10.5pt">①、右键单击表节点，粗线刷新菜单，如图</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.072.jpg" width="306" height="112" alt="" />
+			</p>
+			<p>单击刷新，实现刷新</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">1.5.4</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span><a name="_Toc443396591">表操作</a></h3>
+			<h4 style="margin-left:43.2pt; text-indent:-43.2pt">1.5.4.1<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0;&#xa0; </span>查看数据</h4>
+			<p> ①、右键单击表节点，出现查看数据菜单如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.073.jpg" width="387" height="54" alt="" />
+			</p>
+			<p>②、单击查看数据，显示表数据面板如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.074.jpg" width="598" height="466" alt="" />
+			</p>
+			<p>&#xa0;</p>
+			<h4 style="margin-left:-0.1pt; text-indent:0.1pt">1.5.4.2<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>查看表</h4>
+			<p style="line-height:150%; font-size:10.5pt">①、查看表有两个入口,右键表名单击查看表如图或者是双击表名。</p>
+			<p style="text-align:center; line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.075.jpg" width="348" height="135" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">②、单击“查看表”可以查看表的列属性包含：字段名，数据类型，数据长度和注释等信息，如图：</p>
+			<p style="margin-top:0pt; margin-left:20.9pt; margin-bottom:0pt; text-indent:0pt; text-align:center; widows:2; orphans:2">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.076.jpg" width="598" height="65" alt="" />
+			</p>
+			<p><strong><span style="font-family:宋体; font-size:11pt; ">&#xa0;</span></strong></p>
+			<p><strong><span style="font-size:11pt; ">                </span></strong><span style="font-size:11pt">  </span></p>
+			<h4 style="margin-left:63.8pt; text-indent:-63.8pt">1.5.4.3<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0;&#xa0; </span>分区</h4>
+			<p style="line-height:150%; font-size:10.5pt">表的分区包括分区信息和分区数据分布</p>
+			<h5 style="margin-left:50.4pt; text-indent:-50.4pt">1.5.4.3.1<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>查看分区</h5>
+			<p style="line-height:150%; font-size:10.5pt">①、右键单击表实例，出现查看分区菜单如下图：</p>
+			<p style="text-indent:0pt; text-align:center; line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.077.jpg" width="387" height="182" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">②、点击查看分区，出现分区信息面板。分区信息主要包括分区key和分区实例列表，分区实例列表包括分区名称，分区段和分区 ID ，分区数据分布主要包括：序号，数据包，数据包大小，数据节点，数据片ID，分区ID。在分区信息栏可以查看分区信息，在分区数据分布栏可以查看分区数据。如下图</p>
+			<p style="margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:center; widows:2; orphans:2">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.078.jpg" width="577" height="103" alt="" />
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:center; widows:2; orphans:2">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.079.jpg" width="598" height="232" alt="" />
+			</p>
+			<h5 style="margin-left:50.4pt; text-indent:-50.4pt">1.5.4.3.2<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>创建分区</h5>
+			<p>①、右键单击分区目录，出现新建分区，如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.080.jpg" width="332" height="60" alt="" />
+			</p>
+			<p>②、点击新建分区，弹出如图新建分区对话框，有两个图标，<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.081.jpg" width="51" height="23" alt="" />，分别为增加属性和删除属性如下图</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.082.jpg" width="598" height="304" alt="" />
+			</p>
+			<p>③、点击添加按钮，填充相关信息，如下图</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.083.jpg" width="598" height="300" alt="" />
+			</p>
+			<p>④、点击查看，会弹出新建分区脚本面板，如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.084.jpg" width="598" height="494" alt="" />
+			</p>
+			<p style="text-indent:0pt">点击复制，脚本自动复制到系统粘贴板上</p>
+			<p style="text-indent:0pt">⑤、点击删除按钮，选中的分区会删除</p>
+			<p style="text-indent:0pt">⑥、点击完成，创建分区成功，如下图</p>
+			<p style="text-indent:0pt">&#xa0;</p>
+			<p style="text-indent:0pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.085.jpg" width="597" height="238" alt="" />
+			</p>
+			<p>&#xa0;</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.086.jpg" width="269" height="70" alt="" />
+			</p>
+			<p>&#xa0;</p>
+			<p><span style="font-family:宋体; font-size:11pt">&#xa0;</span></p>
+			<h5 style="margin-left:50.4pt; text-indent:-50.4pt">1.5.4.3.3<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>刷新分区</h5>
+			<p style="line-height:150%; font-size:10.5pt">①、右键单击分区节点，出现刷新菜单如图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.087.jpg" width="296" height="97" alt="" />
+			</p>
+			<p>②、单击刷新，则表进行信息刷新</p>
+			<h5 style="margin-left:50.4pt; text-indent:-50.4pt">1.5.4.3.4<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>截断分区</h5>
+			<p>①、右键单击分区节点，出现截断菜单，如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.088.jpg" width="372" height="75" alt="" />
+			</p>
+			<p>&#xa0;</p>
+			<p>②、点击截断，出现截断提示，如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.089.jpg" width="330" height="136" alt="" />
+			</p>
+			<p>③、点击查看SQL ,出现截断分区脚本面板，如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.090.jpg" width="598" height="351" alt="" />
+			</p>
+			<p>单击复制，脚本自动复制到系统粘贴板中</p>
+			<p>④、单击是，完成分区的截断</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.091.jpg" width="598" height="204" alt="" />
+			</p>
+			<p>&#xa0;</p>
+			<h5 style="margin-left:50.4pt; text-indent:-50.4pt">1.5.4.3.5<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>复制分区名称</h5>
+			<p>①、右键单击分区节点，出现复制菜单，如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.092.jpg" width="371" height="111" alt="" />
+			</p>
+			<p>②、单击复制，分区名称自动复制到系统粘贴板上</p>
+			<h5 style="margin-left:50.4pt; text-indent:-50.4pt">1.5.4.3.6<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>删除分区</h5>
+			<p>①、右键单击分区节点，出现删除菜单，如下图：</p>
+			<p><span style="font-size:11pt">&#xa0;</span></p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.093.jpg" width="345" height="122" alt="" />
+			</p>
+			<p>②、单击删除，出现删除提示框，如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.094.jpg" width="507" height="155" alt="" />
+			</p>
+			<p>③、点击查看sql，出现删除分区脚本面板如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.095.jpg" width="598" height="283" alt="" />
+			</p>
+			<p>单击复制，删除分区脚本自动复制到系统粘贴板上</p>
+			<p>④、单击确定，完成删除分区操作，原分区节点删除，如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.096.jpg" width="201" height="44" alt="" />
+			</p>
+			<p>&#xa0;</p>
+			<h4 style="margin-left:92.85pt; text-indent:-43.2pt">1.5.4.4<span style="font:7.0pt 'Times New Roman'"> </span>数据片</h4>
+			<p>①、右键表节点，出现查看数据片字段如下图</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.097.jpg" width="392" height="198" alt="" />
+			</p>
+			<p>②、单击查看数据片，出现数据片信息面板，数据片信息包括数据片数量和数据片字段，数据分布主要包括序号，数据包，数据包大小，数据节点，数据片ID和分区ID，如下图</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.098.jpg" width="542" height="126" alt="" />
+			</p>
+			<h4 style="margin-left:92.85pt; text-indent:-43.2pt">1.5.4.5<span style="font:7.0pt 'Times New Roman'"> </span>索引操作</h4>
+			<h5 style="margin-left:50.4pt; text-indent:-50.4pt">1.5.4.5.1<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>新建索引</h5>
+			<p> ①、右键索引节点，出现新建索引菜单，如下图</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.099.jpg" width="309" height="111" alt="" />
+			</p>
+			<p>②、点击新建索引，弹出索引编辑框，其中包含表信息和分区信息 ，选中要建立索引的表信息和分区信息，其中所选分区信息中必须包含数据，如下图：</p>
+			<p style="text-align:center">&#xa0;</p>
+			<p style="text-align:center">&#xa0;</p>
+			<p>③、选中部分表信息和分区名如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.100.jpg" width="538" height="378" alt="" />
+			</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.101.jpg" width="524" height="443" alt="" />
+			</p>
+			<p>④、点击查看sql，弹出生成索引的sql脚本，如下图</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.102.jpg" width="598" height="460" alt="" />
+			</p>
+			<p>单击复制，脚本自动复制到系统粘贴板上</p>
+			<p>⑤、单击完成，实现索引的创建 如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.103.jpg" width="530" height="159" alt="" />
+			</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.104.jpg" width="309" height="134" alt="" />
+			</p>
+			<p style="text-align:center">&#xa0;</p>
+			<h5 style="margin-left:50.4pt; text-indent:-50.4pt">1.5.4.5.2<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>删除索引</h5>
+			<p> ①、右键索引实例节点，出现删除菜单，如下图</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.105.jpg" width="314" height="83" alt="" />
+			</p>
+			<p>②、点击删除，出现消息提示框，如下图</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.106.jpg" width="512" height="158" alt="" />
+			</p>
+			<p>③、单击查看sql，弹出删除索引脚本面板如下图</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.107.jpg" width="598" height="428" alt="" />
+			</p>
+			<p>单击复制，脚本自动复制到系统粘贴板上</p>
+			<p>&#xa0;</p>
+			<p>④、点击确定按钮，删除索引，如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.108.jpg" width="290" height="46" alt="" />
+			</p>
+			<h5 style="margin-left:50.4pt; text-indent:-50.4pt">1.5.4.5.3<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>复制索引名称</h5>
+			<p>①、右键索引实例节点，出现复制菜单，如下图</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.105.jpg" width="314" height="83" alt="" />
+			</p>
+			<p>②、点击复制，索引名称自动复制到系统粘贴板上</p>
+			<h4 style="margin-left:92.85pt; text-indent:-43.2pt">1.5.4.6<span style="font:7.0pt 'Times New Roman'"> </span>生成SQL</h4>
+			<p>①、右键表节点，出现生成SQL菜单如下图</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.109.jpg" width="667" height="441" alt="" />
+			</p>
+			<p>②、单击Select 生成查询语句面板，单击Insert 出现插入语句面板，单击Create 出现建表语句面板如下图：</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.110.jpg" width="385" height="289" alt="" />
+			</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.111.jpg" width="651" height="300" alt="" />
+			</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.111_2.jpg" width="800" height="287" alt="" />
+			</p>
+			<h4 style="margin-left:92.85pt; text-indent:-43.2pt">1.5.4.7<span style="font:7.0pt 'Times New Roman'"> </span>截断</h4>
+			<p style="line-height:150%; font-size:10.5pt">①、右键单击表节点出现截断菜单，如下图</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.112.jpg" width="301" height="202" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">②、单击截断，出现截断弹出框，如下图:</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.113.jpg" width="484" height="138" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">③、单击查看SQL,出现sql面板</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.114.jpg" width="598" height="313" alt="" />
+			</p>
+			<p>单击复制，截断语句则复制到系统粘贴板上</p>
+			<p>&#xa0;</p>
+			<p>④、单击“是”，如果截断成功则出现如下弹出框</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.115.jpg" width="534" height="168" alt="" />
+			</p>
+			<h4 style="margin-left:92.85pt; text-indent:-43.2pt">1.5.4.8<span style="font:7.0pt 'Times New Roman'"> </span>表名重命名</h4>
+			<p style="line-height:150%; font-size:10.5pt">①、右键单击表连接点，出现重命名菜单如下图：</p>
+			<p style="text-align:center; line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.116.jpg" width="328" height="223" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">②、单击重命名,输入新的表名如图</p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.117.jpg" width="598" height="159" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt"> ③、单击查看sql，如图</p>
+			<p style="line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.118.jpg" width="598" height="347" alt="" />
+			</p>
+			<p style="line-height:150%; font-size:10.5pt">单击复制，重命名语句自动复制到系统粘贴板上</p>
+			<p style="line-height:150%; font-size:10.5pt">④、单击确定，完成重命名，成功则出现如下弹出框</p>
+			<p style="text-align:center; line-height:150%; font-size:10.5pt">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.119.jpg" width="533" height="164" alt="" />
+			</p>
+			<p><strong><span style="font-family:宋体; font-size:11pt; ">&#xa0;</span></strong></p>
+			<p style="line-height:150%; font-size:11pt"><strong><span style="font-size:11pt; "> </span></strong><span style="font-size:11pt"> ⑤、查看表名，如下图</span></p>
+			<p><span style="font-family:宋体; font-size:11pt">&#xa0;</span></p>
+			<p style="text-align:center">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.120.jpg" width="205" height="63" alt="" />
+			</p>
+			<h4 style="margin-left:92.85pt; text-indent:-43.2pt">1.5.4.9<span style="font:7.0pt 'Times New Roman'"> </span>表名复制</h4>
+			<p>①、右键单击表节点出现复制菜单，如图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.121.jpg" width="322" height="252" alt="" />
+			</p>
+			<p>②、单击复制，表名则复制到系统粘贴板上</p>
+			<h4 style="margin-left:92.85pt; text-indent:-43.2pt">1.5.4.10<span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0; </span>删除表</h4>
+			<p>①、右键单击表节点，出现删除表菜单如图</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.122.jpg" width="335" height="277" alt="" />
+			</p>
+			<p>②、单击删除，出现提示框，如图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.123.jpg" width="510" height="160" alt="" />
+			</p>
+			<p>③、单击查看sql 出现删除语句面板如下图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.124.jpg" width="598" height="283" alt="" />
+			</p>
+			<p>单击复制，删除表语句自动复制到系统粘贴板上</p>
+			<p>④、单击确定，删除表在表节点下删除</p>
+			<h4 style="margin-left:92.85pt; text-indent:-43.2pt; line-height:157%; font-size:15pt"><span style="font-size:10pt">1.5.4.11</span><span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0; </span><span style="font-size:15pt">刷新表</span></h4>
+			<p style="line-height:150%; font-size:10.5pt">①、右键单击表节点，出现刷新菜单如图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.125.jpg" width="423" height="268" alt="" />
+			</p>
+			<p>②、单击刷新，则表进行信息刷新</p>
+			<h4 style="margin-left:92.85pt; text-indent:-43.2pt; line-height:157%; font-size:15pt"><span style="font-size:10pt">1.5.4.12</span><span style="font:7.0pt 'Times New Roman'">&#xa0;&#xa0; </span><span style="font-size:15pt">表视图</span></h4>
+			<p style="line-height:150%; font-size:10.5pt">①、右键单击表节点，出现表视图菜单如图：</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.126.jpg" width="317" height="326" alt="" />
+			</p>
+			<p>②、单击表视图，查看表基本信息、属性信息、分区信息、数据片信息和建表脚本相关信息，表基本信息包括：所有者、表名称、数据片数、表类型和表描述，属性包括：序号、字段名、数据类型、数据长度和字段注释，分区信息主要包括分区key和分区实例列表，分区实例列表包括分区名称，分区段和分区 ID ，分区数据分布主要包括：序号，数据包，数据包大小，数据节点，数据片ID，分区ID。在分区信息栏可以查看分区信息，在分区数据分布栏可以查看分区数据，数据片信息包括数据片数量和数据片字段，数据分布主要包括序号，数据包，数据包大小，数据节点，数据片ID和分区ID，如下图</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.127.jpg" width="598" height="301" alt="" />
+			</p>
+			<p>
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.128.jpg" width="598" height="366" alt="" />
+			</p>
+			<p style="text-align:center">&#xa0;</p>
+			<p style="text-indent:0pt; text-align:left">
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.129.jpg" width="598" height="410" alt="" />
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.130.jpg" width="598" height="412" alt="" />
+				<img src="xcloud-sqldeveloper-helper/xcloud-sqldeveloper-helper.131.jpg" width="598" height="410" alt="" />
+			</p>
+			<h3 style="margin-left:36pt; text-indent:-36pt"><span style="font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt">1.5.5</span><span style="font:7.0pt 'Times New Roman'">&#xa0; </span><a name="_Toc4433965991">查看系统表</a></h3>
+			<p>①、通过普通用户登录后，会有一个SYSTEM用户</p>
+			<p>
+				<img src="window/xcloud-sqldeveloper-helper-window.12.png"  alt="" />
+			</p>
+			<p>②、可以对系统表右键查询系统表数据</p>
+			<p>
+				<img src="window/xcloud-sqldeveloper-helper-window.13.png" width="598" height="450" alt="" />
+			</p>
+			</body>
+</html>

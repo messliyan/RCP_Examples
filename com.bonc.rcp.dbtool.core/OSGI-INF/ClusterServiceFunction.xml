@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="IClusterService context function">
+   <implementation class="com.bonc.rcp.dbtool.services.impl.ClusterServiceContextFunction"/>
+   <service>
+      <provide interface="org.eclipse.e4.core.contexts.IContextFunction"/>
+   </service>
+   <property name="service.context.key" type="String" value="com.bonc.rcp.dbtool.services.IClusterService"/>
+</scr:component>

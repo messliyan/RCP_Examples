@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.example.ui.PracticeEditor"
+            icon="icons/logo.gif"
+            default="true"
+            contributorClass="com.example.actions.DiagramActionBarContributor"
+            name="Practice Editor"
+            id="com.example.ui.PracticeEditor"
+            extensions="gefpractice">
+      </editor>
+   </extension>
+   <extension
+         id="com.bonc.rcp.example.fragment"
+         point="org.eclipse.e4.workbench.model">
+      <fragment
+            uri="fragment.e4xmi">
+      </fragment>
+   </extension>
+   <extension
+         point="org.eclipse.swt.examples.launcher.launchItems">
+      <category
+            description="gef编辑器例子"
+            id="com.bonc.rcp.example.category.gef"
+            name="gef编辑器例子">
+      </category>
+      <item
+            category="com.bonc.rcp.example.category.gef"
+            description="gef写的一个例子 有联系和画图"
+            icon="icons/logo.gif"
+            id="com.bonc.rcp.example.emf.gefpractice"
+            name="GefPractice">
+         <editor
+               editorId="com.example.ui.PracticeEditor"
+               editorInputclass="com.example.ui.MyEditorInput"
+               pluginId="com.bonc.rcp.example">
+         </editor>
+      </item>
+   </extension>
+
+</plugin>

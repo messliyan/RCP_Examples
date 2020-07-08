@@ -1,0 +1,462 @@
+
+body { text-indent:21pt; text-align:justify; widows:0; orphans:0; font-family:Calibri; font-size:10.5pt }
+h1, h2, h3, h4, h5, h6, p { margin:6pt 0pt }
+li { margin-top:6pt; margin-bottom:6pt }
+h1 { margin-top:17pt; margin-left:21.6pt; margin-bottom:16.5pt; text-indent:-21.6pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:241%; widows:0; orphans:0; font-size:22pt; font-weight:bold }
+h2 { margin-top:13pt; margin-left:57.15pt; margin-bottom:13pt; text-indent:-28.8pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:173%; widows:0; orphans:0; font-family:Cambria; font-size:16pt; font-weight:bold }
+h3 { margin-top:13pt; margin-left:36pt; margin-bottom:13pt; text-indent:-36pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:173%; widows:0; orphans:0; font-size:16pt; font-weight:bold }
+h4 { margin-top:14pt; margin-left:92.85pt; margin-bottom:14.5pt; text-indent:-43.2pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:157%; widows:0; orphans:0; font-family:Cambria; font-size:14pt; font-weight:bold }
+h5 { margin-top:14pt; margin-left:50.4pt; margin-bottom:14.5pt; text-indent:-50.4pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:157%; widows:0; orphans:0; font-size:14pt; font-weight:bold }
+h6 { margin-top:12pt; margin-left:57.6pt; margin-bottom:3.2pt; text-indent:-57.6pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:133%; widows:0; orphans:0; font-family:Cambria; font-size:12pt; font-weight:bold }
+.Heading7 { margin-top:12pt; margin-left:64.8pt; margin-bottom:3.2pt; text-indent:-64.8pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:133%; widows:0; orphans:0; font-size:12pt; font-weight:bold }
+.Heading8 { margin-top:12pt; margin-left:72pt; margin-bottom:3.2pt; text-indent:-72pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:133%; widows:0; orphans:0; font-family:Cambria; font-size:12pt; font-weight:normal }
+.Heading9 { margin-top:12pt; margin-left:79.2pt; margin-bottom:3.2pt; text-indent:-79.2pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:133%; widows:0; orphans:0; font-family:Cambria; font-size:10.5pt; font-weight:normal }
+.a21 { margin-top:6pt; margin-bottom:6pt; text-indent:10pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.1CharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:Tahoma; font-size:12pt }
+.12 { margin-top:6pt; margin-bottom:6pt; text-indent:22.1pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:11pt }
+.5CharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:Tahoma; font-size:12pt; background-color:#000080 }
+.ABLOCKPARA { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:11pt }
+.ABULLET { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:11pt }
+.AINDENTEDBULLET { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:11pt }
+.AINDENTEDPARA { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:11pt }
+.BONC1 { margin-top:17pt; margin-left:262.5pt; margin-bottom:16.5pt; text-indent:-262.5pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:300%; widows:0; orphans:0; font-family:宋体; font-size:22pt; font-weight:bold }
+.BONC2 { margin-top:13pt; margin-left:21.6pt; margin-bottom:13pt; text-indent:-21.6pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:173%; widows:0; orphans:0; font-family:Arial; font-size:16pt; font-weight:bold }
+.BONC3 { margin-top:13pt; margin-left:35.45pt; margin-bottom:13pt; text-indent:-35.45pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:173%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:16pt; font-weight:bold }
+.BONC4 { margin-top:14pt; margin-left:21.6pt; margin-bottom:14.5pt; text-indent:-21.6pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:157%; widows:0; orphans:0; font-family:Arial; font-size:14pt; font-weight:bold }
+.BONC5 { margin-top:14pt; margin-left:50.4pt; margin-bottom:14.5pt; text-indent:-50.4pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:157%; widows:0; orphans:0; font-family:宋体; font-size:14pt; font-weight:bold }
+.BalloonText { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; widows:0; orphans:0; font-size:9pt }
+.BodyText { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; widows:0; orphans:0; font-size:10.5pt }
+.BodyText2 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:200%; widows:0; orphans:0; font-size:10.5pt }
+.BodyText3 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; widows:0; orphans:0; font-size:8pt }
+.BodyText4 { margin-top:3pt; margin-left:90pt; margin-bottom:3pt; text-indent:-18pt; text-align:left; widows:2; orphans:2; font-family:宋体; font-size:12pt; color:#000000 }
+.BodyTextFirstIndent { margin-top:6pt; margin-bottom:6pt; text-indent:10pt; text-align:left; line-height:125%; widows:0; orphans:0; font-family:'Book Antiqua'; font-size:11pt }
+.BodyTextFirstIndent2 { margin-top:6pt; margin-left:21pt; margin-bottom:6pt; text-indent:10pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-family:Calibri; font-size:10.5pt }
+.BodyTextIndent { margin-top:6pt; margin-left:21pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:10.5pt }
+.BodyTextIndent2 { margin-top:6pt; margin-left:21pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:200%; widows:0; orphans:0; font-size:10.5pt }
+.BodyTextIndent3 { margin-top:6pt; margin-left:21pt; margin-bottom:6pt; text-indent:22.1pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:8pt }
+.Bullet1 { margin-top:6pt; margin-bottom:6pt; text-indent:22.1pt; text-align:justify; line-height:150%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:11pt; color:#000000 }
+.BulletList { margin-top:0pt; margin-left:68.25pt; margin-bottom:0pt; text-indent:-21pt; text-align:left; widows:2; orphans:2; font-family:宋体; font-size:11pt }
+.Caption { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:center; widows:0; orphans:0; font-family:Arial; font-size:14pt }
+.Char0 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:Tahoma; font-size:12pt }
+.CharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharCharCharCharChar { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharCharCharCharCharChar1 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:Tahoma; font-size:12pt }
+.CharCharCharCharChar2Char { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; widows:0; orphans:0; font-family:Tahoma; font-size:12pt }
+.CharCharCharChar1 { margin-top:6pt; margin-left:57pt; margin-bottom:6pt; text-indent:10pt; text-align:justify; line-height:20pt; widows:0; orphans:0; font-family:Tahoma; font-size:12pt }
+.CharCharCharChar1CharChar { margin-top:12pt; margin-left:72pt; margin-bottom:12pt; text-indent:-72pt; page-break-inside:avoid; page-break-after:avoid; font-family:Arial; font-size:10.5pt }
+.CharCharChar7CharCharChar { margin-top:12pt; margin-bottom:12pt; text-indent:21pt; text-align:center; page-break-inside:avoid; page-break-after:avoid; font-family:Arial; font-size:10.5pt }
+.CharChar1 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar1CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar { margin-top:0pt; margin-bottom:8pt; text-indent:0pt; text-align:left; line-height:12pt; widows:2; orphans:2; font-family:Verdana; font-size:9pt }
+.CharChar3CharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar { margin-top:0pt; margin-left:64pt; margin-bottom:0pt; text-indent:-36pt; text-align:justify; page-break-before:always; page-break-inside:avoid; page-break-after:avoid; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:12pt; font-weight:normal }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1CharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1Char { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1CharChar { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1CharCharChar { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1CharCharCharChar { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1CharCharCharCharCharCharCharChar { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1CharCharCharCharCharCharCharCharCharChar { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1CharCharCharCharCharCharCharCharCharCharCharChar { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1CharCharChar1CharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1CharCharChar1CharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar2 { margin-top:6pt; margin-left:0pt; margin-bottom:6pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar2CharCharCharCharCharCharCharChar { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar2 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1CharCharCharCharCharChar { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar3CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1CharCharCharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar4 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7Char { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharChar7CharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharChar7CharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharChar7CharCharCharCharCharCharCharChar { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharChar7CharCharCharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharChar7CharCharCharCharCharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharCharCharChar1 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharCharCharChar1CharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharCharCharChar1CharCharChar { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharCharCharChar1CharCharCharChar { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharCharCharChar1CharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharCharCharChar1CharChar1 { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharCharCharChar2 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharCharCharChar3 { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar1 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar1CharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar1CharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar1CharCharCharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar1CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharChar7CharChar1CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar1CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1CharCharCharCharCharCharCharCharCharCharCharCharCharChar { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar1CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar1CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1CharCharCharCharCharCharCharCharCharCharCharCharCharChar1CharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar2 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar3 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar4 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar5 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar5CharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar5CharCharCharChar1 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar5CharCharCharChar2 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar5CharCharCharChar3 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar5CharCharCharChar4CharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar5CharCharCharChar4CharChar1 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar5CharCharCharChar4CharChar2 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar5CharCharCharChar4CharChar3 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar7CharChar5CharCharCharChar4CharChar4CharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar8CharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharChar8CharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:11pt }
+.CharChar8CharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharChar8CharCharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.CharChar8CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; widows:0; orphans:0; font-family:Tahoma; font-size:12pt }
+.CharChar8CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar1 { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; widows:0; orphans:0; font-family:Tahoma; font-size:12pt }
+.Char1 { margin-top:12pt; margin-bottom:12pt; text-indent:21pt; text-align:center; page-break-inside:avoid; page-break-after:avoid; font-family:Arial; font-size:10.5pt }
+.Char1CharCharCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:Tahoma; font-size:12pt }
+.Char1CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar2 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; widows:0; orphans:0; font-family:Tahoma; font-size:12pt; background-color:#000080 }
+.Char1CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar21 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; widows:0; orphans:0; font-family:Tahoma; font-size:12pt; background-color:#000080 }
+.Char1CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar211 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; widows:0; orphans:0; font-family:Tahoma; font-size:12pt; background-color:#000080 }
+.Char1CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar22 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; widows:0; orphans:0; font-family:Tahoma; font-size:12pt; background-color:#000080 }
+.Char1CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar221 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; widows:0; orphans:0; font-family:Tahoma; font-size:12pt; background-color:#000080 }
+.Char1CharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharCharChar23 { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; widows:0; orphans:0; font-family:Tahoma; font-size:12pt; background-color:#000080 }
+.Char1CharCharChar1 { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; widows:0; orphans:0; font-family:Tahoma; font-size:12pt; background-color:#000080 }
+.Char2 { margin-top:12pt; margin-bottom:12pt; text-indent:21pt; text-align:center; page-break-inside:avoid; page-break-after:avoid; font-family:Arial; font-size:10.5pt }
+.CommentSubject { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:left; widows:0; orphans:0; font-size:10.5pt; font-weight:bold }
+.CommentSubject0 { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:10pt; font-weight:bold }
+.CommentText { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:left; widows:0; orphans:0; font-size:10.5pt }
+.Date { margin-top:6pt; margin-left:5pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; widows:0; orphans:0; font-family:'Times New Roman'; font-size:10.5pt }
+.Default { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:center; widows:0; orphans:0; font-family:'Arial Black'; font-size:12pt; color:#000000 }
+.DocumentMap { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; widows:0; orphans:0; font-family:宋体; font-size:9pt }
+.Footer { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:left; widows:0; orphans:0; font-size:9pt }
+.FootnoteText { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:left; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:9pt }
+.HD1 { margin-top:0pt; margin-bottom:0pt; text-indent:24.1pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:12pt; font-weight:bold; color:#000000 }
+.Header { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:center; widows:0; orphans:0; border-bottom-style:solid; border-bottom-width:0.75pt; border-bottom-color:#000000; padding-bottom:1pt; font-size:9pt }
+.IBM { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:18pt; widows:0; orphans:0; font-family:'Times New Roman'; font-size:12pt }
+.Index1 { margin-top:6pt; margin-left:21pt; margin-bottom:6pt; text-indent:-21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:7pt; vertical-align:sub }
+.Index2 { margin-top:6pt; margin-left:10pt; margin-bottom:6pt; text-indent:0pt; text-align:justify; widows:0; orphans:0; font-size:10.5pt }
+.IndexHeading { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.List { margin-top:6pt; margin-left:21pt; margin-bottom:6pt; text-indent:-21pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:10.5pt }
+.List2 { margin-top:6pt; margin-left:42pt; margin-bottom:6pt; text-indent:-21pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:11pt }
+.List3 { margin-top:6pt; margin-left:63pt; margin-bottom:6pt; text-indent:-21pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:11pt }
+.List4 { margin-top:6pt; margin-left:84pt; margin-bottom:6pt; text-indent:-21pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:11pt }
+.List5 { margin-top:6pt; margin-left:105pt; margin-bottom:6pt; text-indent:-21pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:11pt }
+.ListBullet { margin-top:6pt; margin-left:18pt; margin-bottom:6pt; text-indent:-18pt; text-align:justify; widows:0; orphans:0; font-size:10.5pt }
+.ListBullet2 { margin-top:6pt; margin-left:39pt; margin-bottom:6pt; text-indent:-18pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:10.5pt }
+.ListBullet3 { margin-top:6pt; margin-bottom:6pt; text-indent:22.1pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:11pt }
+.ListBullet4 { margin-top:6pt; margin-bottom:6pt; text-indent:22.1pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:11pt }
+.ListContinue2 { margin-top:6pt; margin-left:42pt; margin-bottom:6pt; text-indent:21pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:11pt }
+.ListContinue3 { margin-top:6pt; margin-left:63pt; margin-bottom:6pt; text-indent:21pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:11pt }
+.ListNumber { margin-top:6pt; margin-left:0pt; margin-bottom:6pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:10.5pt }
+.ListNumber2 { margin-top:6pt; margin-left:39pt; margin-bottom:6pt; text-indent:-18pt; text-align:justify; widows:0; orphans:0; font-size:10.5pt }
+.MMEmpty { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.MMRelationship { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.MMTitle { margin-top:12pt; margin-bottom:3pt; text-indent:21pt; text-align:center; line-height:150%; widows:0; orphans:0; font-family:Arial; font-size:16pt; font-weight:bold }
+.MMTopic1 { margin-top:17pt; margin-left:21.25pt; margin-bottom:16.5pt; text-indent:-21.25pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:240%; widows:0; orphans:0; font-family:宋体; font-size:22pt; font-weight:bold }
+.MMTopic2 { margin-top:13pt; margin-left:0pt; margin-bottom:13pt; text-indent:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:172%; widows:0; orphans:0; font-family:Arial; font-size:16pt; font-weight:bold }
+.MMTopic3 { margin-top:13pt; margin-left:18pt; margin-bottom:13pt; text-indent:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:172%; widows:0; orphans:0; font-family:宋体; font-size:16pt; font-weight:bold }
+.MMTopic4 { margin-top:14pt; margin-left:0pt; margin-bottom:14.5pt; text-indent:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:155%; widows:0; orphans:0; font-family:Arial; font-size:14pt; font-weight:bold }
+.MMTopic5 { margin-top:14pt; margin-left:72pt; margin-bottom:14.5pt; text-indent:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:155%; widows:0; orphans:0; font-family:宋体; font-size:14pt; font-weight:bold }
+.MMTopic6 { margin-top:6pt; margin-left:0pt; margin-bottom:6pt; text-indent:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:12pt; font-weight:bold }
+.NormalWeb { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:left; widows:2; orphans:2; font-family:宋体; font-size:12pt }
+.NormalIndent { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; widows:0; orphans:0; font-family:'Times New Roman'; font-size:10.5pt }
+.PlainText { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.StyleHeading2NotItalic { margin-top:3pt; margin-left:37.8pt; margin-bottom:3pt; text-indent:-28.35pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:12pt; widows:0; orphans:0; font-family:Arial; font-size:14pt; font-weight:bold; color:#000000 }
+.StyleLeft005AfterAutoLinespacingsingle2 { margin-top:6pt; margin-left:3.6pt; margin-bottom:6pt; text-indent:21pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:宋体; font-size:12pt; color:#000000 }
+.StyleAutoLeft0AfterAutoLinespacingsingle { margin-top:6pt; margin-bottom:5pt; text-indent:21pt; text-align:left; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:12pt }
+.T3 { margin-top:0pt; margin-left:28.35pt; margin-bottom:6pt; text-indent:0pt; text-align:justify; page-break-inside:avoid; line-height:125%; widows:2; orphans:2; font-family:Arial; font-size:11pt }
+.TAH { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:center; page-break-inside:avoid; page-break-after:avoid; widows:2; orphans:2; font-family:Arial; font-size:9pt; font-weight:bold }
+.TAL { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; widows:2; orphans:2; font-family:Arial; font-size:9pt }
+.TOC1 { margin-top:6pt; margin-bottom:6pt; text-indent:0pt; text-align:left; line-height:14pt; widows:0; orphans:0; font-family:Arial; font-size:10.5pt; font-weight:bold }
+.TOC2 { margin-top:0pt; margin-left:10.5pt; margin-bottom:0pt; text-indent:5.65pt; text-align:left; line-height:17pt; widows:0; orphans:0; font-size:10.5pt; font-variant:small-caps }
+.TOC3 { margin-top:0pt; margin-left:21pt; margin-bottom:0pt; text-indent:7.35pt; text-align:left; line-height:16pt; widows:0; orphans:0; font-size:9pt }
+.TOC4 { margin-top:0pt; margin-left:31.5pt; margin-bottom:0pt; text-indent:21pt; text-align:left; widows:0; orphans:0; font-size:9pt }
+.TOC5 { margin-top:0pt; margin-left:42pt; margin-bottom:0pt; text-indent:21pt; text-align:left; widows:0; orphans:0; font-size:9pt }
+.TOC6 { margin-top:0pt; margin-left:52.5pt; margin-bottom:0pt; text-indent:21pt; text-align:left; widows:0; orphans:0; font-size:9pt }
+.TOC7 { margin-top:0pt; margin-left:63pt; margin-bottom:0pt; text-indent:21pt; text-align:left; widows:0; orphans:0; font-size:9pt }
+.TOC8 { margin-top:0pt; margin-left:73.5pt; margin-bottom:0pt; text-indent:21pt; text-align:left; widows:0; orphans:0; font-size:9pt }
+.TOC9 { margin-top:0pt; margin-left:84pt; margin-bottom:0pt; text-indent:21pt; text-align:left; widows:0; orphans:0; font-size:9pt }
+.TOC10 { margin-top:24pt; margin-left:0pt; margin-bottom:0pt; text-indent:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:115%; widows:2; orphans:2; font-family:Cambria; font-size:14pt; font-weight:bold; color:#365f91 }
+.Table { margin-top:2pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; widows:2; orphans:2; font-family:Arial; font-size:10pt }
+.TableHeader { margin-top:6pt; margin-bottom:0pt; text-indent:0pt; text-align:center; page-break-inside:avoid; page-break-after:avoid; widows:2; orphans:2; font-family:Arial; font-size:10pt; font-weight:bold }
+.TableHeading { margin-top:3pt; margin-bottom:3pt; text-indent:21pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:宋体; font-size:11pt; font-weight:bold }
+.TableNormal1 { margin-top:3pt; margin-bottom:3pt; text-indent:21pt; text-align:center; font-family:'Times New Roman'; font-size:11pt }
+.TableSubheading { margin-top:3pt; margin-bottom:3pt; text-indent:21pt; text-align:center; font-family:'Times New Roman'; font-size:10pt; font-weight:bold }
+.TableofFigures { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.Title { margin-top:12pt; margin-bottom:3pt; text-indent:21pt; text-align:center; line-height:150%; widows:0; orphans:0; font-family:Arial; font-size:16pt; font-weight:bold }
+.Style304 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; widows:0; orphans:0; font-size:10.5pt }
+.font0 { margin-top:5pt; margin-bottom:5pt; text-indent:0pt; text-align:left; widows:2; orphans:2; font-family:Arial; font-size:10pt; color:#000000 }
+.font10 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:Arial; font-size:10pt; color:#333333 }
+.font5 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:宋体; font-size:12pt }
+.font6 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:宋体; font-size:9pt }
+.font7 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:宋体; font-size:10pt }
+.font8 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:Arial; font-size:10pt }
+.font9 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:Arial; font-size:12pt }
+.picCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:center; line-height:150%; widows:0; orphans:0; font-family:Arial; font-size:10pt }
+.textCharChar1Char { margin-top:6pt; margin-left:14.4pt; margin-bottom:6pt; text-indent:22.3pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:Arial; font-size:11pt }
+.tty80 { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:left; widows:2; orphans:2; font-family:'Courier New'; font-size:10pt }
+.xl24 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:left; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:10pt }
+.xl25 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:left; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:Arial; font-size:10pt }
+.xl26 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:right; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:10pt }
+.xl27 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:Arial; font-size:10pt }
+.xl28 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:right; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:Arial; font-size:10pt }
+.xl29 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:Arial; font-size:10pt; background-color:#ccffcc }
+.xl30 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:left; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:Arial; font-size:10pt; background-color:#ccffcc }
+.xl31 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:right; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:10pt; background-color:#ccffcc }
+.xl32 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:Arial; font-size:10pt; background-color:#ffff00 }
+.xl33 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:right; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:10pt; background-color:#ffff00 }
+.xl34 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:Arial; font-size:10pt }
+.xl35 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:left; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:10pt; font-weight:bold }
+.xl36 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:10pt; font-weight:bold }
+.xl37 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:right; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:10pt; font-weight:bold }
+.xl38 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:Arial; font-size:10pt; background-color:#ccffcc }
+.xl39 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:right; line-height:150%; widows:2; orphans:2; font-family:Arial; font-size:12pt }
+.xl40 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:Arial; font-size:12pt }
+.xl41 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:宋体; font-size:12pt }
+.xl42 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:Arial; font-size:12pt }
+.xl43 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:right; line-height:150%; widows:2; orphans:2; font-family:Arial; font-size:12pt }
+.xl44 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:宋体; font-size:12pt }
+.xl45 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:12pt; font-weight:bold; background-color:#c0c0c0 }
+.xl46 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:12pt; font-weight:bold; background-color:#c0c0c0 }
+.xl47 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:12pt; font-weight:bold; background-color:#c0c0c0 }
+.xl48 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:12pt; font-weight:bold; background-color:#c0c0c0 }
+.xl49 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:12pt }
+.xl50 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:12pt }
+.xl51 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; font-family:宋体; font-size:12pt; font-weight:bold; background-color:#c0c0c0 }
+.xl52 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; font-family:宋体; font-size:12pt; font-weight:bold; background-color:#c0c0c0 }
+.xl53 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; font-family:宋体; font-size:12pt; font-weight:bold; background-color:#c0c0c0 }
+.xl54 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; font-family:宋体; font-size:12pt }
+.xl55 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; font-family:宋体; font-size:12pt; background-color:#c0c0c0 }
+.xl56 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; font-family:宋体; font-size:12pt }
+.xl57 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:12pt; background-color:#c0c0c0 }
+.xl58 { margin-top:5pt; margin-bottom:5pt; text-indent:21pt; text-align:center; line-height:150%; widows:2; orphans:2; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:12pt }
+.xl63 { margin-top:5pt; margin-bottom:5pt; text-indent:0pt; text-align:center; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:'Microsoft Sans Serif'; font-size:12pt; font-weight:bold }
+.xl64 { margin-top:5pt; margin-bottom:5pt; text-indent:0pt; text-align:left; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:'Microsoft Sans Serif'; font-size:12pt }
+.xl65 { margin-top:5pt; margin-bottom:5pt; text-indent:0pt; text-align:left; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:12pt }
+.xl66 { margin-top:5pt; margin-bottom:5pt; text-indent:0pt; text-align:left; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:12pt }
+.xl67 { margin-top:5pt; margin-bottom:5pt; text-indent:0pt; text-align:left; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:12pt }
+.xl68 { margin-top:5pt; margin-bottom:5pt; text-indent:0pt; text-align:left; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:12pt }
+.xl69 { margin-top:5pt; margin-bottom:5pt; text-indent:0pt; text-align:left; widows:2; orphans:2; font-family:宋体; font-size:12pt }
+.xl70 { margin-top:5pt; margin-bottom:5pt; text-indent:0pt; text-align:center; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:12pt; font-weight:bold }
+.xl71 { margin-top:5pt; margin-bottom:5pt; text-indent:0pt; text-align:center; widows:2; orphans:2; border-top-style:solid; border-top-width:0.5pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.5pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.5pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.5pt; border-bottom-color:#000000; font-family:宋体; font-size:12pt; font-weight:bold }
+.zw { margin-top:6pt; margin-bottom:6pt; text-indent:10pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-size:10.5pt }
+.a42 { margin-top:6pt; margin-left:21pt; margin-bottom:6pt; text-indent:-21pt; text-align:justify; line-height:12pt; widows:0; orphans:0; font-family:Arial; font-size:10.5pt }
+.a39 { margin-top:6pt; margin-left:0pt; margin-bottom:6pt; text-indent:0pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:宋体; font-size:12pt }
+.a26 { margin-left:9pt; text-indent:21pt; text-align:justify; font-family:黑体; font-size:10.5pt }
+.a36 { margin-top:6pt; margin-left:0pt; margin-bottom:6pt; text-indent:0pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:宋体; font-size:12pt }
+.a28 { margin-left:49.6pt; text-indent:-49.6pt; text-align:justify; font-family:黑体; font-size:10.5pt }
+.a35 { margin-top:6pt; margin-left:0pt; margin-bottom:6pt; text-indent:0pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:宋体; font-size:12pt }
+.a27 { margin-left:42.55pt; text-indent:-42.55pt; text-align:justify; font-family:黑体; font-size:10.5pt }
+.a38 { margin-top:6pt; margin-left:0pt; margin-bottom:6pt; text-indent:0pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:宋体; font-size:12pt }
+.a30 { margin-left:63.8pt; text-indent:-63.8pt; text-align:justify; font-family:黑体; font-size:10.5pt }
+.16 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:center; font-family:'Times New Roman'; font-size:10.5pt }
+.a19 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:center; widows:2; orphans:2; font-family:黑体; font-size:18pt; letter-spacing:1pt }
+.a17 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; font-family:黑体; font-size:26pt }
+.a23 { margin-top:6pt; margin-bottom:6pt; text-indent:24.1pt; text-align:justify; line-height:125%; widows:0; orphans:0; font-family:宋体; font-size:12pt }
+.a46 { margin-top:6pt; margin-left:21pt; margin-bottom:6pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:12pt; font-weight:bold }
+.1 { margin-top:6pt; margin-bottom:6pt; text-indent:10pt; text-align:justify; widows:0; orphans:0; font-family:'Times New Roman'; font-size:10.5pt }
+.42 { margin-top:0pt; margin-left:45pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:12pt }
+.a48 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:center; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:18pt; font-weight:bold }
+.a25 { margin-top:32pt; margin-left:42pt; margin-bottom:28pt; text-indent:-21pt; text-align:center; font-family:黑体; font-size:16pt; background-color:#ffffff }
+.a33 { margin-top:32pt; margin-left:0pt; margin-bottom:10pt; text-indent:0pt; text-align:center; font-family:黑体; font-size:10.5pt; background-color:#ffffff }
+.a8 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:center; font-family:'Times New Roman'; font-size:14pt }
+.a37 { margin-top:6pt; margin-left:0pt; margin-bottom:6pt; text-indent:0pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:宋体; font-size:12pt }
+.a29 { margin-left:56.7pt; text-indent:-56.7pt; text-align:justify; font-family:黑体; font-size:10.5pt }
+.a18 { margin-top:6pt; margin-left:0pt; margin-bottom:6pt; text-indent:0pt; text-align:right; font-family:'Times New Roman'; font-size:14pt }
+.a12 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:right; line-height:18pt; widows:0; orphans:0; font-family:Arial; font-size:12pt }
+.a9 { margin-top:22pt; margin-bottom:6pt; text-indent:21pt; text-align:center; line-height:20pt; font-family:宋体; font-size:14pt }
+.a56 { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:center; line-height:150%; widows:0; orphans:0; font-family:黑体; font-size:22pt }
+.13 { margin-top:15.4pt; margin-bottom:6pt; text-indent:21pt; text-align:right; widows:0; orphans:0; font-family:'Times New Roman'; font-size:14pt }
+.a43 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:center; line-height:34pt; widows:0; orphans:0; font-family:黑体; font-size:26pt }
+.a57 { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:center; widows:0; orphans:0; font-family:黑体; font-size:18pt }
+.a24 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:Arial; font-size:12pt; letter-spacing:0.4pt }
+.17 { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:Tahoma; font-size:8pt }
+.26 { margin-top:0pt; margin-bottom:0pt; text-indent:0pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:Tahoma; font-size:8pt }
+.a59 { margin-left:63pt; text-indent:-21pt; text-align:justify; font-family:宋体; font-size:10.5pt }
+.a0 { margin-top:6pt; margin-bottom:6pt; text-indent:24pt; text-align:justify; line-height:24pt; widows:0; orphans:0; font-family:宋体; font-size:12pt }
+.a1 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:10.5pt }
+.110 { margin-top:0pt; margin-left:21.25pt; margin-bottom:0pt; text-indent:-21.25pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:15pt; font-weight:bold }
+.a60 { text-align:justify; font-family:'Times New Roman'; font-size:10.5pt }
+.18 { font-size:11pt }
+.a34 { margin-left:57.75pt; margin-bottom:6pt; text-indent:-21pt; text-align:center; line-height:17pt; font-family:宋体; font-size:10.5pt; color:#000000 }
+.a31 { margin-top:6pt; margin-left:39pt; margin-bottom:6pt; text-indent:-18pt; text-align:justify; line-height:150%; widows:2; orphans:2; font-family:宋体; font-size:9pt }
+.a32 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:right; font-family:'Times New Roman'; font-size:10.5pt }
+.a55 { margin-top:0pt; margin-left:21pt; margin-bottom:0pt; text-indent:-6.8pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:12pt }
+.3 { margin-top:3pt; margin-left:17.85pt; margin-bottom:3pt; text-indent:24pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:12pt }
+.5 { margin-top:3pt; margin-left:31.5pt; margin-bottom:3pt; text-indent:24pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:12pt }
+.a40 { margin-top:6pt; margin-bottom:6pt; text-indent:10pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt; color:#000000 }
+.150 { margin-top:0pt; margin-left:43.95pt; margin-bottom:0pt; text-indent:-22.7pt; text-align:left; line-height:125%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:11pt }
+.19 { margin-top:0pt; margin-left:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:Calibri; font-size:10.5pt }
+.074 { margin-left:0pt; text-indent:22.1pt; text-align:justify; font-family:黑体; font-size:10.5pt }
+.a53 { margin-top:0pt; margin-bottom:0pt; text-indent:28.35pt; text-align:justify; line-height:22pt; widows:0; orphans:0; font-family:宋体; font-size:12pt }
+.0117 { margin-top:6pt; margin-left:0pt; margin-bottom:11.7pt; text-indent:17.95pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt; color:#000000 }
+.2PIM2H2Heading2HiddenHeading2CCBSheading2Titre3 { margin-top:12pt; margin-left:28.8pt; margin-bottom:3pt; text-indent:-28.8pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:125%; widows:2; orphans:2; font-family:宋体; font-size:12pt; font-weight:bold }
+.3h3H3sect123OrgHeading1Level3TopicHeadingleve { margin-top:5pt; margin-left:0pt; margin-bottom:5pt; text-indent:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:16pt; font-weight:bold }
+.3h3H3sect123OrgHeading1Level3TopicHeadingleve1 { margin-top:5pt; margin-left:0pt; margin-bottom:5pt; text-indent:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:115%; widows:0; orphans:0; font-family:宋体; font-size:16pt; font-weight:bold }
+.52 { margin-top:12pt; margin-left:50.4pt; margin-bottom:3pt; text-indent:-50.4pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:125%; widows:2; orphans:2; font-family:宋体; font-size:11pt; font-weight:bold; font-style:italic; color:#000000 }
+.5dashdsddh5H5RomanlistPIM512heading5l5t { margin-top:14pt; margin-left:0pt; margin-bottom:14.5pt; text-indent:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:157%; widows:0; orphans:0; font-family:宋体; font-size:12pt; font-weight:bold; font-style:italic }
+.600 { margin-top:3pt; margin-left:21.25pt; margin-bottom:3.2pt; text-indent:-21.25pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:133%; widows:0; orphans:0; font-family:Arial; font-size:12pt; font-weight:bold }
+.0117095 { margin-top:6pt; margin-bottom:6pt; text-indent:26.95pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:12pt; color:#000000 }
+.23 { margin-top:6pt; margin-bottom:6pt; text-indent:10pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:12pt }
+.221 { margin-top:0pt; margin-left:0pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:10.5pt }
+.220 { margin-top:0pt; margin-left:0pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.15 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:10.5pt }
+.0740 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.25 { margin-top:0pt; margin-bottom:0pt; text-indent:24pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:12pt }
+.06 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:center; widows:0; orphans:0; font-family:黑体; font-size:22pt; font-weight:bold }
+.14 { margin-top:12pt; margin-left:0pt; margin-bottom:3.2pt; text-indent:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:132%; widows:2; orphans:2; font-family:Arial; font-size:12pt; font-weight:normal; color:#000000 }
+.22 { margin-top:12pt; margin-left:0pt; margin-bottom:3.2pt; text-indent:22.1pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:132%; widows:2; orphans:2; font-family:Arial; font-size:12pt; font-weight:normal; color:#000000 }
+.31 { margin-top:12pt; margin-left:0pt; margin-bottom:3.2pt; text-indent:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:132%; widows:2; orphans:2; font-family:Arial; font-size:12pt; font-weight:normal; color:#000000 }
+.41 { margin-top:12pt; margin-left:0pt; margin-bottom:3.2pt; text-indent:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:132%; widows:2; orphans:2; font-family:Arial; font-size:12pt; font-weight:bold; color:#000000 }
+.51 { margin-top:12pt; margin-left:0pt; margin-bottom:3pt; text-indent:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:125%; widows:2; orphans:2; font-family:黑体; font-size:12pt; font-weight:bold }
+.61 { margin-top:12pt; margin-left:28.35pt; margin-bottom:3pt; text-indent:-28.35pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:125%; widows:2; orphans:2; font-family:黑体; font-size:12pt; font-weight:bold }
+.70 { margin-top:12pt; margin-left:0pt; margin-bottom:3pt; text-indent:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:125%; widows:2; orphans:2; font-family:黑体; font-size:12pt; font-weight:bold }
+.8 { margin-top:0pt; margin-left:10.5pt; margin-bottom:0pt; text-indent:0pt; text-align:left; line-height:normal; widows:0; orphans:0; font-family:'Times New Roman'; font-size:10pt; font-variant:small-caps }
+.a49 { margin-top:6pt; margin-bottom:6pt; text-indent:10pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.a { margin-top:6pt; margin-left:84pt; text-indent:-21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:12pt }
+.11 { margin-top:3pt; margin-left:19.2pt; margin-bottom:3pt; text-indent:-14.2pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:12pt }
+.2 { margin-top:3pt; margin-left:29.85pt; margin-bottom:3pt; text-indent:-19.85pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:12pt }
+.30 { margin-top:3pt; margin-left:34.85pt; margin-bottom:3pt; text-indent:-19.85pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:12pt }
+.4 { margin-top:3pt; margin-left:21.6pt; margin-bottom:3pt; text-indent:-21.6pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:12pt }
+.4Char { margin-top:3pt; margin-left:54pt; margin-bottom:3pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:12pt }
+.40 { margin-top:3pt; margin-left:53.95pt; margin-bottom:3pt; text-indent:-53.95pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:12pt; font-weight:bold }
+.50 { margin-top:3pt; margin-left:46pt; margin-bottom:3pt; text-indent:-21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:12pt }
+.6 { margin-top:3pt; margin-left:36pt; margin-bottom:3pt; text-indent:-36pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:12pt }
+.60 { margin-top:3pt; margin-left:80.95pt; margin-bottom:3pt; text-indent:24pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:12pt }
+.7 { margin-top:3pt; margin-left:56pt; margin-bottom:3pt; text-indent:-21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:12pt }
+.a47 { margin-top:6pt; margin-left:24pt; margin-bottom:6pt; text-indent:24pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:楷体_GB2312; font-size:12pt }
+.a50 { margin-top:6pt; margin-bottom:6pt; text-indent:24pt; text-align:justify; line-height:150%; widows:2; orphans:2; font-family:仿宋_GB2312; font-size:12pt; color:#000000 }
+.10 { margin-top:3pt; margin-left:5pt; margin-bottom:3pt; text-indent:10pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:12pt }
+.20 { margin-top:3pt; margin-left:10pt; margin-bottom:3pt; text-indent:10pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:12pt }
+.21 { margin-top:6pt; margin-bottom:6pt; text-indent:28.5pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:14pt }
+.a3 { margin-top:6pt; margin-bottom:6pt; text-indent:10pt; text-align:justify; line-height:22pt; widows:0; orphans:0; font-family:'Times New Roman'; font-size:12pt }
+.a5 { margin-top:6pt; margin-left:42pt; margin-bottom:6pt; text-indent:-21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt; font-weight:bold }
+.a16 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:center; line-height:125%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:10.5pt }
+.a4 { margin-top:6pt; margin-bottom:6pt; text-indent:10pt; text-align:justify; font-family:宋体; font-size:10.5pt }
+.a10 { margin-top:3pt; margin-bottom:3pt; text-indent:10pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt; font-weight:bold }
+.a44 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:center; line-height:15.6pt; widows:0; orphans:0; font-family:宋体; font-size:15pt }
+.a54 { text-align:justify; line-height:16pt; font-family:宋体; font-size:10.5pt }
+.a15 { text-indent:21pt; text-align:justify; font-family:黑体; font-size:10.5pt }
+.Char { margin-left:288pt; margin-bottom:6pt; text-indent:-21pt; text-align:justify; font-family:黑体; font-size:10.5pt }
+.a51 { margin-top:6pt; margin-left:0pt; margin-bottom:6pt; text-indent:0pt; text-align:justify; line-height:12pt; widows:0; orphans:0; font-family:宋体; font-size:14pt }
+.a41 { margin-top:6pt; margin-bottom:6pt; text-indent:22pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:'Book Antiqua'; font-size:11pt }
+.a52 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:left; widows:0; orphans:0; font-family:'DejaVu Serif'; font-size:12pt }
+.a22 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:left; line-height:150%; widows:0; orphans:0; font-family:Arial; font-size:10.5pt; color:#000000 }
+.a7 { margin:6pt 0pt; text-indent:0pt; text-align:center; line-height:normal; widows:0; orphans:0; font-family:'Arial Narrow'; font-size:10.5pt }
+.a45 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:12pt }
+.a20 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; widows:0; orphans:0; font-family:Arial; font-size:9pt }
+.24 { margin-top:2.2pt; margin-right:10.5pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:24pt; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.a2 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:left; widows:0; orphans:0; font-family:Arial; font-size:9pt }
+.a14 { margin-top:6pt; margin-left:34pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:14pt }
+.a58 { margin-top:0pt; margin-bottom:0pt; text-indent:24pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:12pt }
+.a11 { margin-top:3pt; margin-bottom:3pt; text-indent:10pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.a13 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:left; line-height:150%; widows:2; orphans:2; font-family:Arial; font-size:12pt }
+.a6 { margin-top:6pt; margin-bottom:6pt; text-indent:10pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-size:10.5pt }
+.ParaCharCharCharCharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:宋体; font-size:10.5pt }
+.ParaCharCharCharCharCharCharCharCharChar1CharCharCharChar { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:Tahoma; font-size:12pt }
+.ParaCharCharCharCharCharCharCharCharChar1CharCharCharCharCharCharCharCharCharCharCharChar1 { margin-top:6pt; margin-left:17.85pt; margin-bottom:6pt; text-indent:21pt; text-align:left; line-height:21.8pt; widows:0; orphans:0; font-family:Tahoma; font-size:10.5pt; font-weight:bold; background-color:#000080 }
+span.Char21 { font-family:宋体; font-size:10.5pt }
+span.1Char1, span.1Char11, span.1heading1Char1, span.11Char1, span.H1Char10, span.H11Char10, span.Heading0Char1, span.HeadingOneChar1, span.I1Char, span.L1Char10, span.PIM1Char1, span.SectionHeadChar1, span.aaChar1, span.bocChar1, span.h1Char1, span.h11Char1, span.heading1TOCChar1, span.l1Char1, span.1Char10, span.Char111, span.Char110 { font-size:22pt; font-weight:bold }
+span.6Char1, span.111111Char, span.AlphaListChar1, span.BOD4Char1, span.BulletlistChar1, span.H6Char10, span.Heading6Char10, span.L6Char10, span.PIM6Char1, span.ThirdSubheadingChar1, span.h6Char1, span.heading6Char1, span.hsmChar1, span.l6Char1, span.submoduleheadingChar1, span.6ALT6Char1, span.Char117, span.Char116 { font-family:Cambria; font-size:12pt; font-weight:bold }
+span.Char123, span.AltHeaderChar1, span.Header1Char1, span.headeroddChar1, span.hoChar1, span.Char124 { font-size:9pt }
+span.9Char1, span.AppHeadingChar1, span.AppHeading1Char1, span.AppHeading2Char1, span.Captiontextcolumn-wideChar1, span.ITTt9Char1, span.PIM9Char1, span.ctcChar1, span.ftChar1, span.progressChar1, span.progress1Char1, span.progress11Char1, span.progress2Char1, span.progress3Char1, span.progress4Char1, span.Char121 { font-family:Cambria; font-size:10.5pt }
+span.3Char10, span.BOD0Char1, span.BoldHeadChar1, span.ERP3Char1, span.H3Char10, span.Heading3-oldChar1, span.Level3HeadChar1, span.PIM3Char1, span.bhChar1, span.h3Char1, span.level3Char1, span.sect123Char1, span.sect1231Char1, span.sect12311Char1, span.sect12312Char1, span.sect1232Char1, span.sect1233Char1 { font-size:16pt; font-weight:bold }
+span.5Char1, span.BlockLabelChar1, span.H5Char10, span.Heading5Char10, span.NumberedSub-listChar1, span.PIM5Char1, span.RomanlistChar1, span.dashChar1, span.ddChar1, span.dsChar1, span.h5Char1, span.heading5Char1, span.l5Char1, span.l5toc5Char1, span.Char115, span.Char114, span.1Char12, span.2Char12, span.5ALT5Char1, span.Char113 { font-size:14pt; font-weight:bold }
+span.BodyTextChar { font-family:宋体; color:#000000 }
+span.CaptionCharChar, span.CaptionCharCharCharCharChar, span.CaptionChar1CharChar { font-family:Arial; color:#000000 }
+span.7Char1, span.Captionnumbercolumn-wideChar1, span.ITTt7Char1, span.PAAppendixMajorChar1, span.PIM7Char1, span.cncChar1, span.h7Char, span.letterlistChar1, span.letterlist1Char1, span.letterlist2Char1, span.letteredlistChar1, span.letteredlist1Char1, span.stChar1, span.Char119, span.Char118, span.1Char13 { font-size:12pt; font-weight:bold }
+span.8Char1, span.Captiontextpage-wideChar1, span.CenterBoldChar1, span.CenterBold1Char1, span.CenterBold2Char1, span.CenterBold3Char1, span.CenterBold4Char1, span.CenterBold5Char1, span.ITTt8Char1, span.PAAppendixMinorChar1, span.ctpChar1, span.h8Char1, span.8Char10, span.6Char10, span.Char120, span.AChar { font-family:Cambria; font-size:12pt }
+span.CharChar20 { font-family:'Book Antiqua'; font-size:11pt; font-weight:bold; font-style:italic }
+span.CharChar3 { font-size:9pt }
+span.CharChar5 { font-family:'Book Antiqua'; font-size:11pt; font-weight:bold; font-style:italic }
+span.CharChar60 { font-family:'Book Antiqua'; font-size:12pt; font-weight:bold }
+span.CharChar7CharCharCharCharCharCharCharCharCharCharCharCharChar { font-family:宋体; font-size:10.5pt }
+span.CommentReference { font-size:10.5pt }
+span.FollowedHyperlink { text-decoration:underline; color:#800080 }
+span.Char125, span.Footer-EvenChar1, span.footeroddChar1, span.proposaltextChar1 { font-size:9pt }
+span.FootnoteReference { vertical-align:super }
+span.2Char10, span.H2Char10, span.H21Char1, span.H211Char1, span.H212Char1, span.H22Char1, span.H23Char1, span.HD2Char1, span.Heading2CCBSChar1, span.Heading2HiddenChar1, span.PIM2Char1, span.Titre3Char1, span.h2Char1, span.heading2Char1, span.sect12Char1, span.sect121Char1, span.sect1211Char1, span.sect122Char1, span.2Char11 { font-family:Cambria; font-size:16pt; font-weight:bold }
+span.4Char1, span.H4Char10, span.PIM4Char1, span.h4Char1, span.h41Char1, span.h411Char1, span.h412Char1, span.h413Char1, span.h42Char1, span.h421Char1, span.h422Char1, span.h423Char1, span.h43Char1, span.h431Char1, span.h432Char1, span.h44Char1, span.h441Char1, span.h442Char1, span.h45Char1, span.h451Char1, span.h452Char1, span.h46Char1, span.h47Char1, span.h48Char1 { font-family:Cambria; font-size:14pt; font-weight:bold }
+span.Heading3Char4Char, span.Heading3CharCharCharCharChar1Char, span.Heading3CharCharChar1Char1Char, span.Heading3CharChar1Char1Char, span.Heading3CharChar3Char, span.Heading3Char1CharCharChar1Char, span.Heading3Char1Char1Char1Char, span.Heading3Char2Char1Char { font-family:'Book Antiqua'; font-size:12pt; font-weight:bold }
+span.Heading5Char { font-family:'Book Antiqua'; font-size:11pt; font-weight:bold; font-style:italic }
+span.Hyperlink { text-decoration:underline; color:#0000ff }
+span.Strong { font-weight:bold }
+span.picCharCharChar { font-family:Arial }
+span.textCharChar1CharChar { font-family:Arial; font-size:11pt }
+span.zwChar { font-size:10.5pt }
+span.Char22 { font-family:黑体; font-size:10.5pt }
+span.CharChar2 { font-family:黑体; font-size:10.5pt }
+span.113 { color:#808080 }
+span.Char15 { font-size:10.5pt; font-weight:bold }
+span.Char14 { font-size:10.5pt }
+span.Char5 { font-size:9pt }
+span.Char122 { font-family:Calibri; font-size:9pt }
+span.Char13 { font-family:宋体; font-size:12pt }
+span.Char112 { font-family:宋体; font-size:12pt }
+span.Char8 { font-family:'Times New Roman'; font-size:10.5pt }
+span.Char6 { font-family:宋体; font-size:9pt }
+span.Char28 { font-size:11pt }
+span.Char17 { font-family:'Times New Roman'; font-size:10.5pt }
+span.1Char { font-size:22pt; font-weight:bold }
+span.2Char { font-family:Cambria; font-size:16pt; font-weight:bold }
+span.3Char { font-size:16pt; font-weight:bold }
+span.4Char0 { font-family:Cambria; font-size:14pt; font-weight:bold }
+span.5Char { font-size:14pt; font-weight:bold }
+span.6Char { font-family:Cambria; font-size:12pt; font-weight:bold }
+span.7Char { font-size:12pt; font-weight:bold }
+span.8Char { font-family:Cambria; font-size:12pt }
+span.9Char { font-family:Cambria; font-size:10.5pt }
+span.Char25 { font-family:Arial; font-size:16pt; font-weight:bold }
+span.Char24 { font-family:宋体; font-size:10.5pt; color:#000000 }
+span.a61 { font-size:12pt }
+span.0117095Char { font-family:宋体; font-size:12pt; color:#000000 }
+span.6Char0 { font-family:黑体; font-size:12pt; font-weight:bold }
+span.2Char1 { font-size:10.5pt }
+span.3Char0 { font-size:8pt }
+span.Char9 { font-size:10.5pt }
+span.2Char0 { font-size:10.5pt }
+span.3Char1 { font-family:'Book Antiqua'; font-size:8pt }
+span.Char7 { font-family:'Times New Roman'; font-size:10.5pt }
+span.Char10 { font-family:'Times New Roman'; font-size:12pt }
+span.Char16 { font-family:宋体; font-size:10.5pt; font-weight:bold }
+span.Char12 { font-family:'Times New Roman'; font-size:10.5pt }
+span.2Char2 { font-family:'Times New Roman'; font-size:10.5pt }
+span.Char20 { font-family:'Book Antiqua'; font-size:11pt }
+span.Char11 { font-family:宋体; font-size:10.5pt }
+span.CharChar6 { font-family:宋体; font-size:10.5pt }
+span.CharChar0 { font-family:黑体; font-size:10.5pt }
+span.Char19 { font-family:宋体; font-size:10.5pt }
+span.Char23 { font-family:宋体; font-size:9pt }
+span.111 { text-decoration:underline; color:#800080 }
+span.112 { text-decoration:underline; color:#800080 }
+span.Char3 { font-size:9pt }
+span.Char26 { font-size:9pt }
+span.Char4 { font-size:9pt }
+span.Char27 { font-size:9pt }
+span.Char18 { font-family:'Times New Roman'; font-size:10.5pt }
+.0011 { text-align:justify; line-height:12pt }
+.TableGrid { text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman' }
+.TableGrid7 { text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman'; font-weight:bold }
+.TableNormal2 { margin-top:6pt; margin-bottom:6pt; text-indent:21pt; text-align:center; font-family:'Times New Roman' }
+.116 { color:#000000 }
+.27 { color:#000000 }
+.115 { margin-left:0pt; text-indent:0pt; text-align:justify; line-height:150%; widows:0; orphans:0; font-family:'Times New Roman' }

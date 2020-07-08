@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: WEBHGEF_8
+Bundle-SymbolicName: com.bonc.gef.example.river.WEBHGEF;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: webhgef_8.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.equinox.ds,
+ org.eclipse.equinox.util,
+ org.eclipse.equinox.event,
+ org.eclipse.gef;bundle-version="3.11.0",
+ org.eclipse.ui.views,
+ org.eclipse.swt.examples.launcher;bundle-version="3.106.300"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: WEBHGEF_8
+Bundle-ActivationPolicy: lazy

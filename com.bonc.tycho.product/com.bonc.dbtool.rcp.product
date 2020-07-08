@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="DBTool" uid="DBTool" id="com.bonc.rcp.dbtool.core.Dbtool" application="com.bonc.rcp.dbtool.core.application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+
+   <aboutInfo>
+      <image path="icons/xcloud_logo180.png"/>
+      <text>
+         Version: DBTool2.0.1
+Build id: 20200426 Build-trunk 122971
+      </text>
+   </aboutInfo>
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgs>-nl zh
+-clearPersistedState
+-data @user.home
+      </programArgs>
+      <vmArgs>-Xms512m
+-Xmx1024m
+      </vmArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i16="icons/cirrodata16-8.png" i32="icons/cirrodata32-8.png" i48="icons/cirrodata48-8.png" i64="icons/cirrodata64-8.png" i128="icons/cirrodata128-8.png" i256="icons/cirrodata256-8.png"/>
+
+   <splash
+      location="com.bonc.rcp.dbtool.core"
+      startupProgressRect="5,275,445,15"
+      startupMessageRect="7,252,445,20"
+      startupForegroundColor="000000" />
+   <launcher name="DBTool">
+      <win useIco="false">
+         <bmp
+            winSmallHigh="icons/c16_16_32.bmp"
+            winSmallLow="icons/c16_16_8.bmp"
+            winMediumHigh="icons/c32_32_32.bmp"
+            winMediumLow="icons/c32_32_8.bmp"
+            winLargeHigh="icons/c48_48_32.bmp"
+            winLargeLow="icons/c48_48_8.bmp"
+            winExtraLargeHigh="icons/c256_256_32.bmp"/>
+      </win>
+   </launcher>
+
+   <vm>
+      <windows include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8</windows>
+   </vm>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="org.eclipse.rcp"/>
+      <feature id="com.bonc.rcp.core.feature"/>
+      <feature id="org.eclipse.e4.rcp"/>
+      <feature id="com.bonc.rcp.e3.lib.feature"/>
+      <feature id="org.eclipse.emf.common" version="2.14.0.v20180527-1134"/>
+      <feature id="org.eclipse.emf.ecore" version="2.14.0.v20180529-1144"/>
+      <feature id="com.bonc.rcp.example.feature" version="1.0.0.qualifier"/>
+   </features>
+
+   <configurations>
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+   </configurations>
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
+
+</product>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.swt.examples.launcher.launchItems">
+      <category
+            description="官网上swt的例子"
+            id="org.eclipse.swt.snippets.category.swtmotily"
+            name="swt例子官网">
+      </category>
+      <item
+            category="org.eclipse.swt.snippets.category.swtmotily"
+            description="例子1"
+            enabled="true"
+            id="org.eclipse.swt.snippets.Snippet1"
+            name="org.eclipse.swt.snippets.item1">
+         <program
+               mainClass="org.eclipse.swt.snippets.Snippet1"
+               pluginId="org.eclipse.swt.snippets">
+         </program>
+      </item>
+      <item
+            category="org.eclipse.swt.snippets.category.swtmotily"
+            description="例子10"
+            enabled="true"
+            id="org.eclipse.swt.snippets.Snippet10"
+            name="org.eclipse.swt.snippets.item10">
+         <program
+               mainClass="org.eclipse.swt.snippets.Snippet10"
+               pluginId="org.eclipse.swt.snippets">
+         </program>
+      </item>
+      <item
+            category="org.eclipse.swt.snippets.category.swtmotily"
+            description=""
+            enabled="true"
+            id="org.eclipse.swt.snippets.Snippet100"
+            name="org.eclipse.swt.snippets.item100">
+         <program
+               mainClass="org.eclipse.swt.snippets.Snippet100"
+               pluginId="org.eclipse.swt.snippets">
+         </program>
+      </item>
+      
+      <item
+            category="org.eclipse.swt.snippets.category.swtmotily"
+            description=""
+            enabled="true"
+            id="org.eclipse.swt.snippets.Snippet101"
+            name="org.eclipse.swt.snippets.item101">
+         <program
+               mainClass="org.eclipse.swt.snippets.Snippet101"
+               pluginId="org.eclipse.swt.snippets">
+         </program>
+      </item>
+      
+      <item
+            category="org.eclipse.swt.snippets.category.swtmotily"
+            description=""
+            enabled="true"
+            id="org.eclipse.swt.snippets.Snippet102"
+            name="org.eclipse.swt.snippets.item102">
+         <program
+               mainClass="org.eclipse.swt.snippets.Snippet102"
+               pluginId="org.eclipse.swt.snippets">
+         </program>
+      </item>
+      
+      
+      <item
+            category="org.eclipse.swt.snippets.category.swtmotily"
+            description=""
+            enabled="true"
+            id="org.eclipse.swt.snippets.Snippet103"
+            name="org.eclipse.swt.snippets.item103">
+         <program
+               mainClass="org.eclipse.swt.snippets.Snippet103"
+               pluginId="org.eclipse.swt.snippets">
+         </program>
+      </item>
+      
+      
+      <item
+            category="org.eclipse.swt.snippets.category.swtmotily"
+            description=""
+            enabled="true"
+            id="org.eclipse.swt.snippets.Snippet104"
+            name="org.eclipse.swt.snippets.item104">
+         <program
+               mainClass="org.eclipse.swt.snippets.Snippet104"
+               pluginId="org.eclipse.swt.snippets">
+         </program>
+      </item>
+      
+      
+      <item
+            category="org.eclipse.swt.snippets.category.swtmotily"
+            description=""
+            enabled="true"
+            id="org.eclipse.swt.snippets.Snippet105"
+            name="org.eclipse.swt.snippets.item105">
+         <program
+               mainClass="org.eclipse.swt.snippets.Snippet105"
+               pluginId="org.eclipse.swt.snippets">
+         </program>
+      </item>
+      
+      
+      <item
+            category="org.eclipse.swt.snippets.category.swtmotily"
+            description=""
+            enabled="true"
+            id="org.eclipse.swt.snippets.Snippet106"
+            name="org.eclipse.swt.snippets.item106">
+         <program
+               mainClass="org.eclipse.swt.snippets.Snippet106"
+               pluginId="org.eclipse.swt.snippets">
+         </program>
+      </item>
+      
+      <item
+            category="org.eclipse.swt.snippets.category.swtmotily"
+            description=""
+            enabled="true"
+            id="org.eclipse.swt.snippets.Snippet107"
+            name="org.eclipse.swt.snippets.item107">
+         <program
+               mainClass="org.eclipse.swt.snippets.Snippet107"
+               pluginId="org.eclipse.swt.snippets">
+         </program>
+      </item>
+      
+      <item
+            category="org.eclipse.swt.snippets.category.swtmotily"
+            description=""
+            enabled="true"
+            id="org.eclipse.swt.snippets.Snippet108"
+            name="org.eclipse.swt.snippets.item108">
+         <program
+               mainClass="org.eclipse.swt.snippets.Snippet108"
+               pluginId="org.eclipse.swt.snippets">
+         </program>
+      </item>
+      
+      
+      <item
+            category="org.eclipse.swt.snippets.category.swtmotily"
+            description=""
+            enabled="true"
+            id="org.eclipse.swt.snippets.Snippet109"
+            name="org.eclipse.swt.snippets.item109">
+         <program
+               mainClass="org.eclipse.swt.snippets.Snippet109"
+               pluginId="org.eclipse.swt.snippets">
+         </program>
+      </item>
+      
+      
+      <item
+            category="org.eclipse.swt.snippets.category.swtmotily"
+            description=""
+            enabled="true"
+            id="org.eclipse.swt.snippets.Snippet11"
+            name="org.eclipse.swt.snippets.item11">
+         <program
+               mainClass="org.eclipse.swt.snippets.Snippet11"
+               pluginId="org.eclipse.swt.snippets">
+         </program>
+      </item>
+      
+      
+      <item
+            category="org.eclipse.swt.snippets.category.swtmotily"
+            description=""
+            enabled="true"
+            id="org.eclipse.swt.snippets.Snippet110"
+            name="org.eclipse.swt.snippets.item110">
+         <program
+               mainClass="org.eclipse.swt.snippets.Snippet110"
+               pluginId="org.eclipse.swt.snippets">
+         </program>
+      </item>
+   </extension>
+
+</plugin>

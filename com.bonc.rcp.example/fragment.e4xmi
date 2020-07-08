@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_ZwSnMJ82EeqwQOozwzsKpg">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_cxo4UJ82EeqwQOozwzsKpg" featurename="menuContributions" parentElementId="xpath:/">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_jVvegJ82EeqwQOozwzsKpg" elementId="com.bonc.rcp.example.menucontribution.0" parentId="org.eclipse.ui.window.menu">
+      <children xsi:type="menu:Menu" xmi:id="_piPdAJ82EeqwQOozwzsKpg" elementId="com.bonc.rcp.example.menu.editoor" label="&#x663e;&#x793a;&#x7f16;&#x8f91;&#x5668;">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_BeD88J83EeqwQOozwzsKpg" elementId="com.bonc.rcp.example.handledmenuitem.gefpractice" label="GefPractice" iconURI="platform:/plugin/com.bonc.rcp.example/icons/logo.gif" command="_fM4WQJ83EeqwQOozwzsKpg"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_bOnw8J83EeqwQOozwzsKpg" featurename="handlers" parentElementId="xpath:/">
+    <elements xsi:type="commands:Handler" xmi:id="_dM8e0J83EeqwQOozwzsKpg" elementId="com.bonc.rcp.example.handler.editors" contributionURI="bundleclass://com.bonc.rcp.example/com.example.headler.EditorsHeadler" command="_fM4WQJ83EeqwQOozwzsKpg"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_dt_9cJ83EeqwQOozwzsKpg" featurename="commands" parentElementId="xpath:/">
+    <elements xsi:type="commands:Command" xmi:id="_fM4WQJ83EeqwQOozwzsKpg" elementId="com.bonc.rcp.example.command.ediors" commandName="&#x663e;&#x793a;GefPractice"/>
+  </fragments>
+</fragment:ModelFragments>
